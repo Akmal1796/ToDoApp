@@ -1,9 +1,13 @@
 import './App.css'
+import Nav from './Components/Nav'
+import Tasks from './Components/Tasks'
 
-function App() {
-
+const App = () => {
   return (
-    <div>Hello World</div>
+    <div>
+      <Nav />
+      <Tasks />
+    </div>
   )
 }
 
