@@ -1,0 +1,31 @@
+.nav-section {
+    display: flex;
+    align-items: center;
+    background-color: #F8F8F8;
+    padding: 30px;
+}
+
+.left-section {
+    margin-right: 500px;
+}
+
+.brand-name {
+    color: #FF6767;
+}
+
+.middle-section {
+    margin-right: 300px;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.icon-container {
+    display: flex;
+}
+
+.icons {
+    background-color: #FF6767;
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import './Nav.css'
 import { FaBell, FaCalendar, FaSearch } from 'react-icons/fa';
 
 const Nav = () => {
@@ -11,16 +12,19 @@ const Nav = () => {
 
     const month = String(d.getMonth() + 1).padStart(2, '0');
     const day = String(d.getDate()).padStart(2, '0');
+
   return (
-    <div>
-        <div className='left-section'><span>Dash</span>board</div>
+    <div  className='nav-section'>
+        <div className='left-section'><span className='brand-name'>Dash</span>board</div>
         <div className='middle-section'>
             <input type='text' placeholder='Search your tasks here...'/>
-            <FaSearch size={20} />
+            <div className='icons'><FaSearch size={20} color='white' /></div>
         </div>
         <div className='right-section'>
-            <FaBell size={20}/>
-            <FaCalendar size={20}/>
+            <div className='icon-container'>
+                <div className='icons'><FaBell size={20} color='white' /></div>
+                <div className='icons'><FaCalendar size={20} color='white' /></div>
+            </div>
             <input type='date' />
             {dayName}
             {day}/{month}/{d.getFullYear()}
