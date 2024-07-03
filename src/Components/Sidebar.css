@@ -25,6 +25,16 @@
     top: -110px;
 }
 
+.profile-detail {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-size: 17px;
+    font-weight: bold;
+}
+
 .sidebar-items {
     list-style: none;
     display: flex;
@@ -38,6 +48,8 @@
     margin-bottom: 8px;
     display: flex;
     align-items: center;
+    cursor: pointer;
+    transition: font-size 0.3s;
 }
 
 .sidebar-icons {
@@ -46,6 +58,7 @@
 
 .sidebar-items li:hover {
     background-color: rgba(256, 256, 256, 0.3);
+    font-size: 21px;
 }
 
 .active {

@@ -13,8 +13,10 @@ const Sidebar = () => {
     <div className='sidebar-section'>
         <div className='profile-container'>
             <img src={profile} className='profile-img'/>
-            <p>Mohamed Akmal</p>
-            <p>abcd@gmail.com</p>
+            <div className='profile-detail'>
+                <p className='name'>Mohamed Akmal</p>
+                <p>abcd@gmail.com</p>
+            </div>
         </div>
         <ul className='sidebar-items'>
             <li className='active'>
