@@ -1,6 +1,7 @@
-import React from 'react'
+import {React, useState} from 'react'
 import './Nav.css'
 import { FaBell, FaCalendar, FaSearch } from 'react-icons/fa';
+import { BiSolidShare } from "react-icons/bi";
 
 const Nav = () => {
     const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -12,6 +13,12 @@ const Nav = () => {
 
     const month = String(d.getMonth() + 1).padStart(2, '0');
     const day = String(d.getDate()).padStart(2, '0');
+
+    const [isNotificationPanelOpen, setIsNotificationPanelOpen] = useState(false);
+
+    const toggleNotification = () => {
+      setIsNotificationPanelOpen(prevState => !prevState);
+    };
 
   return (
     <div  className='nav-section'>
@@ -29,7 +36,19 @@ const Nav = () => {
 
         <div className='right-section'>
             <div className='icon-container'>
-                <div className='icons'><FaBell size={20} color='white' /></div>
+                <div className='icons'><FaBell size={20} color='white' onClick={toggleNotification}/></div>
+                    {isNotificationPanelOpen && (
+                    <div className='notification-panel'>
+                        {/* Your notification content goes here */}
+                            <div>
+                                <div className='notfication-header'>
+                                    <h3>Notifications</h3>
+                                    <BiSolidShare size={20} color='#FF6767' onClick={toggleNotification} className='notification-back-icon'/>
+                                </div>
+                                <p>No new notifications</p>
+                            </div>
+                    </div>
+                    )}
                 <div className='icons'><FaCalendar size={20} color='white' /></div>
             </div>
             <div className='date-container'>
