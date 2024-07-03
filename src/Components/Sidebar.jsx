@@ -1,6 +1,6 @@
 import {React, useState} from 'react'
 import './Sidebar.css'
-import profile from '/public/Images/profile.jpg'
+import profile from '/public/Images/profile1.jpg'
 import { MdDashboard, MdLogout } from "react-icons/md";
 import { FaExclamation } from "react-icons/fa";
 import { BiTask } from "react-icons/bi";
