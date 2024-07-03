@@ -15,11 +15,18 @@ const Nav = () => {
 
   return (
     <div  className='nav-section'>
-        <div className='left-section'><span className='brand-name'>Dash</span>board</div>
-        <div className='middle-section'>
-            <input type='text' placeholder='Search your tasks here...'/>
-            <div className='icons'><FaSearch size={20} color='white' /></div>
+
+        <div className='left-section'>
+            <div className='brand-name'><span className='brand-name-highlight'>Dash</span>board</div>
         </div>
+
+        <div className='middle-section'>
+            <div className='search-box-container'>
+                <input type='text' placeholder='Search your tasks here...' className='search-box'/>
+                <div className='icons search-icon'><FaSearch size={20} color='white' /></div>
+            </div>
+        </div>
+
         <div className='right-section'>
             <div className='icon-container'>
                 <div className='icons'><FaBell size={20} color='white' /></div>
@@ -29,6 +36,7 @@ const Nav = () => {
             {dayName}
             {day}/{month}/{d.getFullYear()}
         </div>
+
     </div>
   )
 }

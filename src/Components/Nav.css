@@ -1,20 +1,44 @@
 .nav-section {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: #F8F8F8;
     padding: 30px;
 }
 
 .left-section {
-    margin-right: 500px;
 }
 
 .brand-name {
+    font-size: xx-large;
+}
+
+.brand-name-highlight {
     color: #FF6767;
 }
 
 .middle-section {
-    margin-right: 300px;
+}
+
+.search-box-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search-box {
+    padding: 8px;
+    border-radius: 8px;
+    width: 500px;
+    border: none;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-icon {
+    padding: 4px;
+    border-radius: 6px;
+    position: absolute;
+    right: 0;
 }
 
 .right-section {
