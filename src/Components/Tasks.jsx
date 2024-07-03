@@ -4,6 +4,7 @@ import { FaRegClipboard } from "react-icons/fa6";
 import { LuPlus } from "react-icons/lu";
 import { PiDotsThreeOutlineLight } from "react-icons/pi";
 import UIDesign from '/public/Images/UIdesign.jpg'
+import Project from '/public/Images/project.jpeg'
 
 const Tasks = () => {
   return (
@@ -45,6 +46,33 @@ const Tasks = () => {
             </div>
             <div className='status'>
               <p>Status: <span>Not Started</span></p>
+            </div>
+            <div className='status-date'>
+              <p>Created On: 03/07/2024</p>
+            </div>
+          </div>
+        </div>
+
+        <div className='todo-container'>
+          <div className='todo-content-header'>
+            <div className='todo-bullet-header'>
+              <div class="outer-circle-progress">
+                <div class="inner-circle"></div>
+              </div>
+              <h3>Start the new project on food store</h3>
+            </div>
+            <div><PiDotsThreeOutlineLight size={20} color='gray'/></div>
+          </div>
+          <div className='todo-content'>
+            <p>Starts the works on time because of the tight schedules for upcoming days. At least complete the requirements gatheirng within 1 week period.</p>
+            <img src={Project} className='todo-img'/>
+          </div>
+          <div className='todo-status'>
+            <div className='status-priority'>
+              <p>Priority: <span>Moderate</span></p>
+            </div>
+            <div className='status-progress'>
+              <p>Status: <span>In Progress</span></p>
             </div>
             <div className='status-date'>
               <p>Created On: 03/07/2024</p>

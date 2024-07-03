@@ -1,6 +1,6 @@
 .tasks-container {
     position: absolute;
-    left: 500px;
+    left: 450px;
     border: 2px solid lightgray;
     padding: 20px;
 }
@@ -32,6 +32,7 @@
     display: flex;
     align-items: first baseline;
     justify-content: space-between;
+    margin-bottom: 8px;
 }
 
 .todo-content-header h3 {
@@ -51,6 +52,17 @@
     width: 14px;
     height: 14px;
     background-color: #fa2323;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.outer-circle-progress {
+    width: 14px;
+    height: 14px;
+    background-color: #0c5cfb;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -94,6 +106,10 @@
 
 .status span {
     color: #FF6767;
+}
+
+.status-progress span {
+    color: #0c5cfb;
 }
 
 .status-date {
