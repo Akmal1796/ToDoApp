@@ -8,6 +8,7 @@ const Tasks = () => {
     <div className='tasks-container'>
 
       <div className='todo'>
+
         <div className='todo-header'>
 
           <div className='todo-header-left-section'>
@@ -21,6 +22,13 @@ const Tasks = () => {
           </div>
 
         </div>
+
+        <div className='todo-container'>
+          <div className='todo-header'></div>
+          <div className='todo-content'></div>
+          <div className='todo-status'></div>
+        </div>
+
       </div>
 
       <div className='task-status'>
