@@ -25,8 +25,13 @@ const Tasks = () => {
         </div>
 
         <div className='todo-container'>
-          <div className='todo-header'>
-            <h3>Complete The Landing Page UI Design</h3>
+          <div className='todo-content-header'>
+            <div className='todo-bullet-header'>
+              <div class="outer-circle">
+                <div class="inner-circle"></div>
+              </div>
+              <h3>Complete The Landing Page UI Design</h3>
+            </div>
             <div><PiDotsThreeOutlineLight size={20} color='gray'/></div>
           </div>
           <div className='todo-content'>

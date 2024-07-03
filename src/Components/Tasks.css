@@ -20,6 +20,60 @@
     justify-content: space-between;
 }
 
+.todo-container {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 8px 12px;
+    margin-top: 18px;
+}
+
+.todo-content-header {
+    display: flex;
+    align-items: first baseline;
+    justify-content: space-between;
+}
+
+.todo-content-header h3 {
+    width: 300px;
+}
+
+.todo-bullet-header {
+    display: flex;
+    align-items: first baseline;
+}
+
+.todo-bullet-header h3 {
+    margin-left: 15px;
+}
+
+.outer-circle {
+    width: 14px;
+    height: 14px;
+    background-color: #007bff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.inner-circle {
+    width: 9px;
+    height: 9px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.todo-content {
+    margin-left: 29px;
+    width: 260px;
+}
+
+.todo-status {
+    margin-left: 29px;
+}
+
 .header-left {
     display: flex;
     align-items: center;
