@@ -57,6 +57,7 @@
 
 .icon-container {
     display: flex;
+    align-items: center;
 }
 
 .icons {
@@ -127,4 +128,21 @@
   .icons {
     cursor: pointer;
   }
+
+  .daynight-toggle {
+    background-color: rgb(50, 50, 50);
+    padding: 10px;
+    margin-right: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
   
+  .day-mode {
+    background-color: #ffffff; /* White background for day mode */
+    color: #000000; /* Black text for day mode */
+  }
+  
+  .night-mode {
+    background-color: #1c242c; /* Dark background for night mode */
+    color: #ecf0f1; /* Light text for night mode */
+  }

@@ -1,6 +1,6 @@
 import {React, useState} from 'react'
 import './Nav.css'
-import { FaBell, FaCalendar, FaSearch } from 'react-icons/fa';
+import { FaBell, FaCalendar, FaSearch, FaSun, FaMoon } from 'react-icons/fa';
 import { BiSolidShare } from "react-icons/bi";
 
 const Nav = () => {
@@ -25,8 +25,14 @@ const Nav = () => {
         {id: 2, title: "Complete the entire design for Juice Slider", time: "4h", img: "", priority: "High"}
     ]
 
+    const [dayNight, setDayNight] = useState(true);
+  
+    function toggleChangeLight() {
+        setDayNight(prevState => !prevState);
+    }
+
   return (
-    <div  className='nav-section'>
+    <div   className={dayNight ? 'nav-section day-mode' : 'nav-section night-mode'}>
 
         <div className='left-section'>
             <div className='brand-name'><span className='brand-name-highlight'>Dash</span>board</div>
@@ -41,6 +47,9 @@ const Nav = () => {
 
         <div className='right-section'>
             <div className='icon-container'>
+                <div className='daynight-toggle' onClick={toggleChangeLight}>
+                    {dayNight == true ? <FaMoon size={20} color='wheat'/> : <FaSun size={20} color='yellow' />}
+                </div>
                 <div className='icons' onClick={toggleNotification}><FaBell size={20} color='white'/></div>
                     {isNotificationPanelOpen && (
                     <div className='notification-panel'>
