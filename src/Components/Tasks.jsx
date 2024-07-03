@@ -3,6 +3,7 @@ import './Tasks.css'
 import { FaRegClipboard } from "react-icons/fa6";
 import { LuPlus } from "react-icons/lu";
 import { PiDotsThreeOutlineLight } from "react-icons/pi";
+import UIDesign from '/public/Images/UIdesign.jpg'
 
 const Tasks = () => {
   return (
@@ -36,20 +37,20 @@ const Tasks = () => {
           </div>
           <div className='todo-content'>
             <p>Get the work done before 4'O clock with complete responsive design</p>
+            <img src={UIDesign} className='todo-img'/>
           </div>
           <div className='todo-status'>
-            <div>
+            <div className='status-priority'>
               <p>Priority: <span>Moderate</span></p>
             </div>
-            <div>
+            <div className='status'>
               <p>Status: <span>Not Started</span></p>
             </div>
-            <div>
-              <p>Created On: <span>03/07/2024</span></p>
+            <div className='status-date'>
+              <p>Created On: 03/07/2024</p>
             </div>
           </div>
         </div>
-
       </div>
 
       <div className='task-status'>
