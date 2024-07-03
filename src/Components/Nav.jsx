@@ -20,6 +20,10 @@ const Nav = () => {
       setIsNotificationPanelOpen(prevState => !prevState);
     };
 
+    const messages = [
+        {id: 1, title: "Complete the UI design for Landing page for FoodVentures", time: "2h", img: "", priority: "High"}
+    ]
+
   return (
     <div  className='nav-section'>
 
@@ -39,15 +43,27 @@ const Nav = () => {
                 <div className='icons'><FaBell size={20} color='white' onClick={toggleNotification}/></div>
                     {isNotificationPanelOpen && (
                     <div className='notification-panel'>
-                        {/* Your notification content goes here */}
-                            <div>
-                                <div className='notfication-header'>
-                                    <h3>Notifications</h3>
-                                    <BiSolidShare size={20} color='#FF6767' onClick={toggleNotification} className='notification-back-icon'/>
+                        <div className='notification-header'>
+                            <h3>Notifications</h3>
+                            <BiSolidShare size={20} color='#FF6767' onClick={toggleNotification} className='notification-back-icon'/>
+                        </div>
+                        {messages.length > 0 ? (
+                        messages.map(message => (
+                            <div key={message.id} className='notification-message'>
+                            <div className='msg-title-container'>
+                                <div>
+                                    <strong>{message.title}</strong>
                                 </div>
-                                <p>No new notifications</p>
+                                <div className='msg-time'>{message.time}</div>
                             </div>
-                    </div>
+                            {message.img && <img src={message.img} alt="Notification" />}
+                            <div>Priority: <span className='priority'>{message.priority}</span></div>
+                            </div>
+                        ))
+                        ) : (
+                        <p>No new notifications</p>
+                        )}
+                  </div>
                     )}
                 <div className='icons'><FaCalendar size={20} color='white' /></div>
             </div>
