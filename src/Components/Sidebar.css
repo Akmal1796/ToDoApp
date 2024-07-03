@@ -23,6 +23,7 @@
     border: 2px solid rgb(255, 222, 222);
     position: absolute;
     top: -110px;
+    cursor: pointer;
 }
 
 .profile-detail {
