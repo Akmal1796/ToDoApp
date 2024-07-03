@@ -5,6 +5,11 @@
 
 .todo {
     width: 400px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(251, 251, 255);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
 }
 
 .todo-header {
@@ -16,6 +21,7 @@
 .header-left {
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .header-left span {
@@ -55,4 +61,5 @@
 
 .header-date span {
     color: lightgray;
+    font-weight: bold;
 }
