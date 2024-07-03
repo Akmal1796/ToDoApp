@@ -2,3 +2,57 @@
     position: absolute;
     left: 500px;
 }
+
+.todo {
+    width: 400px;
+}
+
+.todo-header {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-left span {
+    font-size: 18px;
+    margin-left: 10px;
+    color: #FF6767;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+
+.header-right:hover {
+    cursor: pointer;
+    color: #FF6767;
+}
+
+.header-right span {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.plus-icon { 
+    color: #FF6767;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.plus-icon:hover {
+    background-color: #FF6767;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.header-date span {
+    color: lightgray;
+}
