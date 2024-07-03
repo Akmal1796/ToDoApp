@@ -23,7 +23,7 @@ const Nav = () => {
         <div className='middle-section'>
             <div className='search-box-container'>
                 <input type='text' placeholder='Search your tasks here...' className='search-box'/>
-                <div className='icons search-icon'><FaSearch size={20} color='white' /></div>
+                <div className='search-icon'><FaSearch size={20} color='white' /></div>
             </div>
         </div>
 
@@ -32,11 +32,11 @@ const Nav = () => {
                 <div className='icons'><FaBell size={20} color='white' /></div>
                 <div className='icons'><FaCalendar size={20} color='white' /></div>
             </div>
-            <input type='date' />
-            {dayName}
-            {day}/{month}/{d.getFullYear()}
+            <div className='date-container'>
+                <div>{dayName}</div>
+                <div className='date'>{day}/{month}/{d.getFullYear()}</div>
+            </div>
         </div>
-
     </div>
   )
 }

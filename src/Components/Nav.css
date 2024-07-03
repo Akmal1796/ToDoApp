@@ -29,7 +29,7 @@
 .search-box {
     padding: 8px;
     border-radius: 8px;
-    width: 500px;
+    width: 700px;
     border: none;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
 }
@@ -38,6 +38,7 @@
     padding: 4px;
     border-radius: 6px;
     position: absolute;
+    background-color: #FF6767;
     right: 0;
 }
 
@@ -52,4 +53,15 @@
 
 .icons {
     background-color: #FF6767;
+    margin-right: 10px;
+    padding: 4px;
+    border-radius: 6px;
+}
+
+.date-container {
+    margin-left: 45px;
+}
+
+.date {
+    color: rgb(3, 171, 255);
 }
