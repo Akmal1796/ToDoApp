@@ -83,7 +83,7 @@
     position: absolute;
     top: 90px;
     right: 50px;
-    width: 250px;
+    width: 300px;
     background-color: #fffefb;
     border: none;
     border-radius: 4px;
@@ -92,8 +92,15 @@
     z-index: 1000;
   }
 
+  .notification-message {
+    padding: 15px 5px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+  }
+
   .notification-header {
     display: flex;
+    padding: 15px 5px;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 15px;

@@ -21,7 +21,8 @@ const Nav = () => {
     };
 
     const messages = [
-        {id: 1, title: "Complete the UI design for Landing page for FoodVentures", time: "2h", img: "", priority: "High"}
+        {id: 1, title: "Complete the UI design for Landing page for FoodVentures", time: "2h", img: "", priority: "High"},
+        {id: 2, title: "Complete the entire design for Juice Slider", time: "4h", img: "", priority: "High"}
     ]
 
   return (
@@ -40,7 +41,7 @@ const Nav = () => {
 
         <div className='right-section'>
             <div className='icon-container'>
-                <div className='icons'><FaBell size={20} color='white' onClick={toggleNotification}/></div>
+                <div className='icons' onClick={toggleNotification}><FaBell size={20} color='white'/></div>
                     {isNotificationPanelOpen && (
                     <div className='notification-panel'>
                         <div className='notification-header'>
