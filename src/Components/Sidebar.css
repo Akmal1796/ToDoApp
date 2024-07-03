@@ -58,7 +58,7 @@
     display: flex;
     align-items: center;
     cursor: pointer;
-    transition: font-size 0.3s;
+    transition: font-size 0.3s, background-color 0.2s;
 }
 
 .sidebar-icons {
