@@ -28,9 +28,9 @@ const TaskForm = () => {
                 <div className='task-priority'>
                     <label htmlFor='priority'>Priority</label>
                     <div>
-                        Extreme<input type='radio' name='priority' className='radio-bullet' />
-                        Moderate<input type='radio' name='priority' className='radio-bullet'/>
-                        Low<input type='radio' name='priority' className='radio-bullet'/>
+                        <span className='priority-color-palatte extreme'></span>Extreme<input type='radio' name='priority' className='radio-bullet' />
+                        <span className='priority-color-palatte moderate'></span>Moderate<input type='radio' name='priority' className='radio-bullet'/>
+                        <span className='priority-color-palatte low'></span>Low<input type='radio' name='priority' className='radio-bullet'/>
                     </div>
                 </div>
 

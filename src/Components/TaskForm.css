@@ -47,6 +47,7 @@
 .task-priority {
     display: flex;
     flex-direction: column;
+    font-weight: bold;
     margin-bottom: 10px;
     width: 650px;
 }
@@ -81,4 +82,25 @@
 .task-priority div {
     display: flex;
     align-items: center;
+    font-weight: lighter;
+    color: gray;
+}
+
+.priority-color-palatte {
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.extreme {
+    background-color: red;
+}
+
+.moderate {
+    background-color: rgb(47, 99, 255);
+}
+
+.low {
+    background-color: rgb(8, 212, 8);
 }
