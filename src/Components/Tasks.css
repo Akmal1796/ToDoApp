@@ -15,8 +15,6 @@
     background-color: rgb(251, 251, 255);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     padding: 25px;
-    overflow: scroll;
-    scrollbar-width: none;
 }
 
 .todo-header {
@@ -181,7 +179,16 @@
 
 /* Progress Bar section Styles */
 
-.completed-task-container {
+.completed-tasks-container {
+    border: none;
+    background-color: rgb(251, 251, 255);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 25px 25px 34px 25px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.completed-tasks {
     border: 1px solid gray;
     border-radius: 10px;
     padding: 8px 12px;
@@ -190,19 +197,17 @@
 }
 
 .task-status {
-    width: 380px;
+    width: 420px;
     border: none;
-    border-radius: 10px;
     margin-left: 25px;
-    background-color: rgb(251, 251, 255);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    padding: 25px 25px 99px 25px;
-    overflow: scroll;
-    scrollbar-width: none;
 }
 
 .progress-bar-container {
-    padding-bottom: 25px;
+    border: none;
+    background-color: rgb(251, 251, 255);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 25px 25px 45px 25px;
+    border-radius: 10px;
 }
 
 .progress-bar-header div {
