@@ -28,6 +28,16 @@
     cursor: pointer;
 }
 
+.old-container {
+    margin-top: 35px;
+    border-top: 2px solid lightgray;
+}
+
+.old {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .todo-content-header {
     display: flex;
     align-items: first baseline;
