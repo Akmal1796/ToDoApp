@@ -10,22 +10,22 @@ const TaskForm = () => {
         </div>
         <div className='form-content'>
             <form>
-                <div>
+                <div className='task-title'>
                     <label>Title</label>
-                    <input type='text'/>
+                    <input type='text' className='input-box' placeholder='Start the project...'/>
                 </div>
 
-                <div>
+                <div className='task-date'>
                     <label>Start Date</label>
-                    <input type='date'/>
+                    <input type='date' className='input-box'/>
                 </div>
 
-                <div>
+                <div className='task-date'>
                     <label>Due Date</label>
-                    <input type='date'/>
+                    <input type='date' className='input-box'/>
                 </div>
 
-                <div>
+                <div className='task-priority'>
                     <label htmlFor='priority'>Priority</label>
                     <div>
                         <input type='radio' name='priority' />Extreme
@@ -34,12 +34,16 @@ const TaskForm = () => {
                     </div>
                 </div>
 
-                <div>
-                    <label>Task Description</label>
-                    <textarea />
+                <div className='task-description-container'>
+                    <div className='task-description'>
+                        <label>Task Description</label>
+                        <textarea />
+                    </div>
 
-                    <label>Upload Image</label>
-                    <input type='file'/>
+                    <div className='task-image-container'>
+                        <label>Upload Image</label>
+                        <input type='file'/>
+                    </div>
                 </div>
             </form>
         </div>

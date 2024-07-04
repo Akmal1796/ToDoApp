@@ -27,4 +27,38 @@
 .form-content {
     margin-top: 20px;
     display: flex;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 2px;
+}
+
+.task-title, 
+.task-date, 
+.task-priority {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 650px;
+}
+
+.task-description-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-box {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid gray;
+}
+
+.task-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.task-image-container {
+    display: flex;
+    flex-direction: column;
 }
