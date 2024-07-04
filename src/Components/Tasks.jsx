@@ -129,10 +129,21 @@ const Tasks = () => {
               <LuClipboardCheck size={30} color='gray'/><span>Task Status</span>
             </div>
           </di>
-          <div>
-            <ProgressBar progress={progress1} color='green' />
-            <ProgressBar progress={progress2} color='blue' />
-            <ProgressBar progress={progress3} color='red' />
+          <div className='progress-bars'>
+            <div>
+              <ProgressBar progress={progress1} color='rgb(9, 204, 70)'/>
+            </div>
+            <div>
+              <ProgressBar progress={progress2} color='blue' />
+            </div>
+            <div>
+              <ProgressBar progress={progress3} color='red' />
+            </div>
+          </div>
+          <div className='prograss-bar-tip-container'>
+            <div className='prograss-bar-tip'><span className='complete-bar'></span>Completed</div>
+            <div className='prograss-bar-tip'><span className='inprogess-bar'></span>In Progress</div>
+            <div className='prograss-bar-tip'><span className='notstarted-bar'></span>Not Started</div>
           </div>
         </div>
 

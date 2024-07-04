@@ -189,9 +189,14 @@
     padding: 25px;
 }
 
+.progress-bar-container {
+    padding-bottom: 25px;
+}
+
 .progress-bar-header div {
     display: flex;
     align-items: center;
+    margin-bottom: 35px;
 }
 
 .progress-bar-header span {
@@ -199,3 +204,47 @@
     margin-left: 10px;
     color: #FF6767;
 } 
+
+.progress-bars {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.progress-bars div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prograss-bar-tip-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.prograss-bar-tip {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.prograss-bar-tip span {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.complete-bar {
+    background-color: rgb(9, 204, 70);
+}
+
+.inprogess-bar {
+    background-color: blue;
+}
+
+.notstarted-bar {
+    background-color: red;
+}
