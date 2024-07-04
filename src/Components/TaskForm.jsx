@@ -3,10 +3,10 @@ import './TaskForm.css'
 
 const TaskForm = () => {
   return (
-    <div>
+    <div className='form-container'>
         <div className='form-header'>
-            <p>Add New Task</p>
-            <p>Go Back</p>
+            <div className='form-header-left'>Add New Task</div>
+            <div className='form-header-right'>Go Back</div>
         </div>
         <div className='form-content'>
             <form>

@@ -1,0 +1,19 @@
+.form-container {
+    width: 700px;
+    border: none;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.form-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-header-left {
+    text-decoration: underline;
+    text-decoration-color: red;
+    line-height: 4px;
+}
