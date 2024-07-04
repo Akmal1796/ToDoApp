@@ -7,6 +7,7 @@ import UIDesign from '/public/Images/UIdesign.jpg'
 import Project from '/public/Images/project.jpeg'
 import webdevelopment from '/public/Images/webDevelopment.jpg'
 import { LuClipboardCheck } from "react-icons/lu";
+import { LuListTodo } from "react-icons/lu";
 import { PiChartPieSliceFill } from "react-icons/pi";
 import ProgressBar from './ProgressBar';
 
@@ -25,7 +26,7 @@ const Tasks = () => {
           <div className='todo-header'>
 
             <div className='todo-header-left-section'>
-              <div className='header-left'><FaRegClipboard size={30} color='gray'/>
+              <div className='header-left'><LuListTodo size={30} color='gray'/>
               <span> To-Do</span></div>
               <div className='header-date'>03 July <span> ·Today</span></div>
             </div>
