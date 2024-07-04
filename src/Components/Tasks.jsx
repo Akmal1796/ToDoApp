@@ -32,7 +32,10 @@ const Tasks = () => {
             </div>
 
             <div className='todo-header-right-section'>
-              <div className='header-right'><LuPlus size={18} className='plus-icon'/><span> Add Task</span></div>
+              <div className='header-right'>
+                <LuPlus size={18} className='plus-icon'/>
+                <span> Add Task</span>
+              </div>
             </div>
 
           </div>
