@@ -1,4 +1,4 @@
-import React from 'react'
+import {React, useState} from 'react'
 import './Tasks.css'
 import { FaRegClipboard } from "react-icons/fa6";
 import { LuPlus } from "react-icons/lu";
@@ -7,8 +7,14 @@ import UIDesign from '/public/Images/UIdesign.jpg'
 import Project from '/public/Images/project.jpeg'
 import webdevelopment from '/public/Images/webDevelopment.jpg'
 import { LuClipboardCheck } from "react-icons/lu";
+import ProgressBar from './ProgressBar';
 
 const Tasks = () => {
+
+  const [progress1, setProgress1] = useState(84);
+  const [progress2, setProgress2] = useState(46);
+  const [progress3, setProgress3] = useState(13);
+
   return (
     <div className='tasks-container'>
 
@@ -123,7 +129,11 @@ const Tasks = () => {
               <LuClipboardCheck size={30} color='gray'/><span>Task Status</span>
             </div>
           </di>
-          <div className='progress-bar'></div>
+          <div>
+            <ProgressBar progress={progress1} color='green' />
+            <ProgressBar progress={progress2} color='blue' />
+            <ProgressBar progress={progress3} color='red' />
+          </div>
         </div>
 
         <div className='completed-task-container'>
