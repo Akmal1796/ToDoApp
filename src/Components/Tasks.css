@@ -1,4 +1,7 @@
 .tasks-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     position: absolute;
     left: 450px;
     border: 2px solid lightgray;
@@ -6,7 +9,7 @@
 }
 
 .todo {
-    width: 450px;
+    width: 49%;
     border: none;
     border-radius: 10px;
     background-color: rgb(251, 251, 255);
@@ -173,3 +176,26 @@
     color: rgb(179, 179, 179);
     font-weight: bold;
 }
+
+/* Progress Bar section Styles */
+
+.task-status {
+    width: 380px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 25px;
+    background-color: rgb(251, 251, 255);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+}
+
+.progress-bar-header div {
+    display: flex;
+    align-items: center;
+}
+
+.progress-bar-header span {
+    font-size: 18px;
+    margin-left: 10px;
+    color: #FF6767;
+} 

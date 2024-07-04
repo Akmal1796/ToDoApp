@@ -6,6 +6,7 @@ import { PiDotsThreeOutlineLight } from "react-icons/pi";
 import UIDesign from '/public/Images/UIdesign.jpg'
 import Project from '/public/Images/project.jpeg'
 import webdevelopment from '/public/Images/webDevelopment.jpg'
+import { LuClipboardCheck } from "react-icons/lu";
 
 const Tasks = () => {
   return (
@@ -117,13 +118,18 @@ const Tasks = () => {
       <div className='task-status'>
 
         <div className='progress-bar-container'>
-
+          <di className="progress-bar-header">
+            <div>
+              <LuClipboardCheck size={30} color='gray'/><span>Task Status</span>
+            </div>
+          </di>
+          <div className='progress-bar'></div>
         </div>
 
         <div className='completed-task-container'>
 
         </div>
-        
+
       </div>
     </div>
   )
