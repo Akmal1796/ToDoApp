@@ -28,16 +28,16 @@ const TaskForm = () => {
                 <div className='task-priority'>
                     <label htmlFor='priority'>Priority</label>
                     <div>
-                        <input type='radio' name='priority' />Extreme
-                        <input type='radio' name='priority'/>Moderate
-                        <input type='radio' name='priority'/>Low
+                        Extreme<input type='radio' name='priority' className='radio-bullet' />
+                        Moderate<input type='radio' name='priority' className='radio-bullet'/>
+                        Low<input type='radio' name='priority' className='radio-bullet'/>
                     </div>
                 </div>
 
                 <div className='task-description-container'>
                     <div className='task-description'>
                         <label>Task Description</label>
-                        <textarea />
+                        <textarea cols={45} rows={8}/>
                     </div>
 
                     <div className='task-image-container'>

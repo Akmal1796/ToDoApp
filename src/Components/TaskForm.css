@@ -62,3 +62,13 @@
     display: flex;
     flex-direction: column;
 }
+
+.radio-bullet {
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+.task-priority div {
+    display: flex;
+    align-items: center;
+}
