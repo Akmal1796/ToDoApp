@@ -115,6 +115,14 @@ const Tasks = () => {
       </div>
 
       <div className='task-status'>
+
+        <div className='progress-bar-container'>
+
+        </div>
+
+        <div className='completed-task-container'>
+
+        </div>
         
       </div>
     </div>
