@@ -148,7 +148,32 @@ const Tasks = () => {
         </div>
 
         <div className='completed-task-container'>
-
+        <div className='todo-container'>
+            <div className='todo-content-header'>
+              <div className='todo-bullet-header'>
+                <div class="outer-circle">
+                  <div class="inner-circle"></div>
+                </div>
+                <h3>Complete The Landing Page UI Design</h3>
+              </div>
+              <div><PiDotsThreeOutlineLight size={20} color='gray'/></div>
+            </div>
+            <div className='todo-content'>
+              <p>Get the work done before 4'O clock with complete responsive design</p>
+              <img src={UIDesign} className='todo-img'/>
+            </div>
+            <div className='todo-status'>
+              <div className='status-priority'>
+                <p>Priority: <span>Moderate</span></p>
+              </div>
+              <div className='status'>
+                <p>Status: <span>Not Started</span></p>
+              </div>
+              <div className='status-date'>
+                <p>Created On: 03/07/2024</p>
+              </div>
+            </div>
+          </div>
         </div>
 
       </div>
