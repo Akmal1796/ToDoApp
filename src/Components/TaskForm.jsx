@@ -1,9 +1,9 @@
 import React from 'react'
 import './TaskForm.css'
 
-const TaskForm = () => {
+const TaskForm = ({ isFormOpen }) => {
   return (
-    <div className='form-container'>
+    <div className={`form-container ${isFormOpen === "show" ? "show" : ""}`}>
         <div className='form-header'>
             <div className='form-header-left'>Add New Task</div>
             <div className='form-header-right'>Go Back</div>

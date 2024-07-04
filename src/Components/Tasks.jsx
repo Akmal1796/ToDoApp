@@ -10,12 +10,21 @@ import { LuClipboardCheck } from "react-icons/lu";
 import { LuListTodo } from "react-icons/lu";
 import { PiChartPieSliceFill } from "react-icons/pi";
 import ProgressBar from './ProgressBar';
+import TaskForm from './TaskForm';
 
 const Tasks = () => {
 
   const [progress1, setProgress1] = useState(84);
   const [progress2, setProgress2] = useState(46);
   const [progress3, setProgress3] = useState(13);
+
+  const [isFormOpen, setForm] = useState("show");
+
+  function toggleForm() {
+      setForm((prevState) => {
+          prevState === "show" ? "" : "show";
+      });
+  }  
 
   return (
     <div className='tasks-container'>
@@ -32,9 +41,10 @@ const Tasks = () => {
             </div>
 
             <div className='todo-header-right-section'>
-              <div className='header-right'>
+              <div className='header-right' onClick={toggleForm}>
                 <LuPlus size={18} className='plus-icon'/>
                 <span> Add Task</span>
+                <TaskForm isFormOpen={isFormOpen} />
               </div>
             </div>
 
@@ -43,8 +53,8 @@ const Tasks = () => {
           <div className='todo-container'>
             <div className='todo-content-header'>
               <div className='todo-bullet-header'>
-                <div class="outer-circle">
-                  <div class="inner-circle"></div>
+                <div className="outer-circle">
+                  <div className="inner-circle"></div>
                 </div>
                 <h3>Complete The Landing Page UI Design</h3>
               </div>
@@ -70,8 +80,8 @@ const Tasks = () => {
           <div className='todo-container'>
             <div className='todo-content-header'>
               <div className='todo-bullet-header'>
-                <div class="outer-circle-progress">
-                  <div class="inner-circle"></div>
+                <div className="outer-circle-progress">
+                  <div className="inner-circle"></div>
                 </div>
                 <h3>Start the new project on food store</h3>
               </div>
@@ -99,8 +109,8 @@ const Tasks = () => {
           <div className='todo-container old'>
             <div className='todo-content-header'>
               <div className='todo-bullet-header'>
-                <div class="outer-circle-progress">
-                  <div class="inner-circle"></div>
+                <div className="outer-circle-progress">
+                  <div className="inner-circle"></div>
                 </div>
                 <h3>Completing the development process</h3>
               </div>
@@ -129,11 +139,11 @@ const Tasks = () => {
       <div className='task-status'>
 
         <div className='progress-bar-container'>
-          <di className="progress-bar-header">
+          <div className="progress-bar-header">
             <div>
               <PiChartPieSliceFill size={30} color='gray'/><span>Task Status</span>
             </div>
-          </di>
+          </div>
           <div className='progress-bars'>
             <div>
               <ProgressBar progress={progress1} color='rgb(9, 204, 70)'/>
@@ -164,8 +174,8 @@ const Tasks = () => {
           <div className='completed-tasks'>
             <div className='completion-content-header'>
               <div className='completion-bullet-header'>
-                <div class="outer-circle-complete-task">
-                  <div class="inner-circle"></div>
+                <div className="outer-circle-complete-task">
+                  <div className="inner-circle"></div>
                 </div>
                 <h4>Completed The Designing phase of the futsal booking System</h4>
               </div>
@@ -188,8 +198,8 @@ const Tasks = () => {
           <div className='completed-tasks'>
             <div className='completion-content-header'>
               <div className='completion-bullet-header'>
-                <div class="outer-circle-complete-task">
-                  <div class="inner-circle"></div>
+                <div className="outer-circle-complete-task">
+                  <div className="inner-circle"></div>
                 </div>
                 <h4>Completed The Designing phase of the futsal booking System</h4>
               </div>
