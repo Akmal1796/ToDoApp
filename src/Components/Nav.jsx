@@ -1,7 +1,9 @@
 import {React, useState} from 'react'
 import './Nav.css'
-import { FaBell, FaCalendar, FaSearch, FaSun, FaMoon } from 'react-icons/fa';
+import { FaSearch, FaSun, FaMoon } from 'react-icons/fa';
+import { MdOutlineDateRange } from "react-icons/md";
 import { BiSolidShare } from "react-icons/bi";
+import { FaRegBell } from "react-icons/fa6";
 
 const Nav = () => {
     const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -50,7 +52,7 @@ const Nav = () => {
                 <div className='daynight-toggle' onClick={toggleChangeLight}>
                     {dayNight == true ? <FaMoon size={20} color='wheat'/> : <FaSun size={20} color='yellow' />}
                 </div>
-                <div className='icons' onClick={toggleNotification}><FaBell size={20} color='white'/></div>
+                <div className='icons' onClick={toggleNotification}><FaRegBell size={20} color='white'/></div>
                     {isNotificationPanelOpen && (
                     <div className='notification-panel'>
                         <div className='notification-header'>
@@ -75,7 +77,7 @@ const Nav = () => {
                         )}
                   </div>
                     )}
-                <div className='icons'><FaCalendar size={20} color='white' /></div>
+                <div className='icons'><MdOutlineDateRange size={20} color='white' /></div>
             </div>
             <div className='date-container'>
                 <div>{dayName}</div>

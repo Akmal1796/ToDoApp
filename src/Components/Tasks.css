@@ -6,12 +6,12 @@
 }
 
 .todo {
-    width: 400px;
+    width: 450px;
     border: none;
     border-radius: 10px;
     background-color: rgb(251, 251, 255);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    padding: 15px;
+    padding: 25px;
 }
 
 .todo-header {
@@ -46,7 +46,7 @@
 }
 
 .todo-content-header h3 {
-    width: 300px;
+    width: 350px;
 }
 
 .todo-bullet-header {
@@ -92,12 +92,13 @@
     display: flex;
     align-items: center;
     margin-left: 29px;
-    width: 330px;
+    width: 380px;
 }
 
 .todo-img {
     width: 95px;
     height: 80px;
+    margin-left: 10px;
     border-radius: 10px;
 }
 
