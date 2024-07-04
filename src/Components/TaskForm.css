@@ -17,3 +17,14 @@
     text-decoration-color: red;
     line-height: 4px;
 }
+
+.form-header-right {
+    text-decoration: underline;
+    text-decoration-color: black;
+    line-height: 4px;
+}
+
+.form-content {
+    margin-top: 20px;
+    display: flex;
+}
