@@ -75,7 +75,7 @@ const Nav = () => {
                         ) : (
                         <p>No new notifications</p>
                         )}
-                  </div>
+                    </div>
                     )}
                 <div className='icons'><MdOutlineDateRange size={20} color='white' /></div>
             </div>
