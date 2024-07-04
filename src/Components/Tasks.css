@@ -138,6 +138,7 @@
 
 .header-left span {
     font-size: 18px;
+    font-weight: bold;
     margin-left: 10px;
     color: #FF6767;
 }
@@ -218,6 +219,7 @@
 
 .progress-bar-header span {
     font-size: 18px;
+    font-weight: bold;
     margin-left: 10px;
     color: #FF6767;
 } 
@@ -264,6 +266,18 @@
 
 .notstarted-bar {
     background-color: red;
+}
+
+.completion-task-header > div {
+    display: flex;
+    align-items: center;
+}
+
+.completion-task-header span {
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 10px;
+    color: #FF6767;
 }
 
 .outer-circle-complete-task {
