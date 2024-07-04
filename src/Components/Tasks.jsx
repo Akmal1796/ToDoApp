@@ -29,6 +29,7 @@ const Tasks = () => {
   return (
     <div className='tasks-container'>
 
+      <TaskForm isFormOpen={isFormOpen} />
       <div className='todo'>
         <div>
 
@@ -44,7 +45,6 @@ const Tasks = () => {
               <div className='header-right' onClick={toggleForm}>
                 <LuPlus size={18} className='plus-icon'/>
                 <span> Add Task</span>
-                <TaskForm isFormOpen={isFormOpen} />
               </div>
             </div>
 
