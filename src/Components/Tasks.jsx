@@ -171,6 +171,30 @@ const Tasks = () => {
           </div>
         </div>
 
+        <div className='completed-task-container'>
+          <div className='completion-content-header'>
+            <div className='completion-bullet-header'>
+              <div class="outer-circle-complete-task">
+                <div class="inner-circle"></div>
+              </div>
+              <h4>Completed The Designing phase of the futsal booking System</h4>
+            </div>
+            <div><PiDotsThreeOutlineLight size={20} color='gray'/></div>
+          </div>
+          <div className='completion-content'>
+            <p>Complete all the interfaces for the futsal booking system using Figma.</p>
+            <img src={UIDesign} className='todo-img'/>
+          </div>
+          <div className='completion-status'>
+            <div className='status-completion'>
+              <p>Status: <span>Completed</span></p>
+            </div>
+            <div className='status-date'>
+              <p>Completed 2 days ago.</p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   )

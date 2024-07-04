@@ -1,6 +1,6 @@
 .tasks-container {
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
     position: absolute;
     left: 450px;
@@ -15,6 +15,8 @@
     background-color: rgb(251, 251, 255);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     padding: 25px;
+    overflow: scroll;
+    scrollbar-width: none;
 }
 
 .todo-header {
@@ -194,7 +196,9 @@
     margin-left: 25px;
     background-color: rgb(251, 251, 255);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    padding: 25px;
+    padding: 25px 25px 99px 25px;
+    overflow: scroll;
+    scrollbar-width: none;
 }
 
 .progress-bar-container {
