@@ -3,6 +3,7 @@ import Nav from './Components/Nav'
 import Sidebar from './Components/Sidebar'
 import TaskForm from './Components/TaskForm'
 import Tasks from './Components/Tasks'
+import VitalTask from './Components/VitalTask'
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Nav />
       <Tasks />
       <Sidebar />
+      <VitalTask />
     </div>
   )
 }
