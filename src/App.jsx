@@ -10,7 +10,6 @@ const App = () => {
       <Nav />
       <Tasks />
       <Sidebar />
-      <TaskForm />
     </div>
   )
 }

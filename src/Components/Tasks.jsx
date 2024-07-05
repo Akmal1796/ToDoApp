@@ -18,18 +18,14 @@ const Tasks = () => {
   const [progress2, setProgress2] = useState(46);
   const [progress3, setProgress3] = useState(13);
 
-  const [isFormOpen, setForm] = useState("show");
+  const [isFormOpen, setForm] = useState(true);
 
   function toggleForm() {
-      setForm((prevState) => {
-          prevState === "show" ? "" : "show";
-      });
+      setForm(prevState => !prevState);
   }  
 
   return (
     <div className='tasks-container'>
-
-      <TaskForm isFormOpen={isFormOpen} />
       <div className='todo'>
         <div>
 
@@ -42,9 +38,14 @@ const Tasks = () => {
             </div>
 
             <div className='todo-header-right-section'>
-              <div className='header-right' onClick={toggleForm}>
-                <LuPlus size={18} className='plus-icon'/>
-                <span> Add Task</span>
+              <div>
+                <div className='header-right' onClick={toggleForm}>
+                  <LuPlus size={18} className='plus-icon'/>
+                  <span> Add Task</span>
+                </div>
+                {isFormOpen && (
+                  <TaskForm isFormOpen={isFormOpen} toggleForm={toggleForm} />
+                )}
               </div>
             </div>
 
