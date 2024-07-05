@@ -25,7 +25,11 @@ const Tasks = () => {
   }
 
   return (
-    <div className='tasks-container'>
+    <div className='all-task-section-container'>
+      <div className='greeting-section'>
+        <h1>Welcome back, Akmal 👋</h1>
+      </div>
+      <div className='tasks-container'>
       {isFormOpen && <div className="overlay" onClick={toggleForm}></div>}
       <div className='todo'>
         <div>
@@ -223,6 +227,7 @@ const Tasks = () => {
         </div>
 
       </div>
+    </div>
     </div>
   )
 }

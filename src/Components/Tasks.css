@@ -1,3 +1,13 @@
+.all-task-section-container {
+    position: relative;
+}
+
+.greeting-section {
+    position: absolute;
+    top: -30px;
+    left: 460px;
+}
+
 .overlay {
     position: fixed;
     top: 0;
@@ -13,6 +23,7 @@
     align-items: start;
     justify-content: space-between;
     position: absolute;
+    top: 30px;
     left: 450px;
     border: 2px solid lightgray;
     padding: 20px;
