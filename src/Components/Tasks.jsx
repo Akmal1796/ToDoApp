@@ -28,6 +28,7 @@ const Tasks = () => {
     <div className='all-task-section-container'>
       <div className='greeting-section'>
         <h1>Welcome back, Akmal 👋</h1>
+        <div></div>
       </div>
       <div className='tasks-container'>
       {isFormOpen && <div className="overlay" onClick={toggleForm}></div>}
