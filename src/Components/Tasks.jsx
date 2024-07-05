@@ -18,7 +18,7 @@ const Tasks = () => {
   const [progress2, setProgress2] = useState(46);
   const [progress3, setProgress3] = useState(13);
 
-  const [isFormOpen, setForm] = useState(true);
+  const [isFormOpen, setForm] = useState(false);
 
   function toggleForm() {
       setForm(prevState => !prevState);
