@@ -22,7 +22,7 @@
 }
 
 .todo {
-    width: 49%;
+    width: 42%;
     height: 650px;
     border: none;
     border-radius: 10px;
@@ -45,16 +45,6 @@
     cursor: pointer;
 }
 
-.old-container {
-    margin-top: 35px;
-    border-top: 2px solid lightgray;
-}
-
-.old {
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
 .todo-content-header {
     display: flex;
     align-items: first baseline;
@@ -63,7 +53,7 @@
 }
 
 .todo-content-header h3 {
-    width: 350px;
+    width: 270px;
 }
 
 .todo-bullet-header {
@@ -109,7 +99,7 @@
     display: flex;
     align-items: center;
     margin-left: 29px;
-    width: 380px;
+    width: 280px;
 }
 
 .todo-img {
@@ -123,7 +113,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 13px;
+    font-size: 10px;
     margin-top: 25px;
     margin-left: 29px;
 }
