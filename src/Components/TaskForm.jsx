@@ -39,12 +39,16 @@ const TaskForm = ({ isFormOpen, toggleForm }) => {
                 <div className='task-description-container'>
                     <div className='task-description'>
                         <label>Task Description</label>
-                        <textarea cols={50} rows={10} className='text-area' placeholder='Start write here...'/>
+                        <textarea cols={40} rows={10} className='text-area' placeholder='Start write here...'/>
                     </div>
 
                     <div className='task-image-container'>
                         <label>Upload Image</label>
-                        <input type='file'/>
+                        <label for="images" class="drop-container" id="dropcontainer">
+                            <span class="drop-title">Drop image here</span>
+                            or
+                            <input type="file" id="images" accept="image/*" required />
+                        </label>
                     </div>
                 </div>
             </form>
