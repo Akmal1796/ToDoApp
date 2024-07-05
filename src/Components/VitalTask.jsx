@@ -12,148 +12,74 @@ import { PiChartPieSliceFill } from "react-icons/pi";
 const VitalTask = () => {
   return (
     <div className='tasks-container'>
-    <div className='todo'>
-      <div>
+      <div className='todo'>
+        <div>
 
-        <div className='todo-header'>
-          <div className='heading'>Vital Tasks</div>
-          <div className='underline'></div>
-        </div>
+          <div className='todo-header'>
+            <div className='heading'>Vital Tasks</div>
+            <div className='underline'></div>
+          </div>
 
-        <div className='todo-container'>
-          <div className='todo-content-header'>
-            <div className='todo-bullet-header'>
-              <div className="outer-circle">
-                <div className="inner-circle"></div>
+          <div className='todo-container'>
+            <div className='todo-content-header'>
+              <div className='todo-bullet-header'>
+                <div className="outer-circle">
+                  <div className="inner-circle"></div>
+                </div>
+                <h3>Complete The Landing Page UI Design</h3>
               </div>
-              <h3>Complete The Landing Page UI Design</h3>
+              <div><PiDotsThreeOutlineLight size={20} color='gray'/></div>
             </div>
-            <div><PiDotsThreeOutlineLight size={20} color='gray'/></div>
-          </div>
-          <div className='todo-content'>
-            <p>Get the work done before 4'O clock with complete responsive design</p>
-            <img src={UIDesign} className='todo-img'/>
-          </div>
-          <div className='todo-status'>
-            <div className='status-priority'>
-              <p>Priority: <span>Moderate</span></p>
+            <div className='todo-content'>
+              <p>Get the work done before 4'O clock with complete responsive design</p>
+              <img src={UIDesign} className='todo-img'/>
             </div>
-            <div className='status'>
-              <p>Status: <span>Not Started</span></p>
-            </div>
-            <div className='status-date'>
-              <p>Created On: 03/07/2024</p>
-            </div>
-          </div>
-        </div>
-
-        <div className='todo-container'>
-          <div className='todo-content-header'>
-            <div className='todo-bullet-header'>
-              <div className="outer-circle-progress">
-                <div className="inner-circle"></div>
+            <div className='todo-status'>
+              <div className='status-priority'>
+                <p>Priority: <span>Moderate</span></p>
               </div>
-              <h3>Start the new project on food store</h3>
-            </div>
-            <div><PiDotsThreeOutlineLight size={20} color='gray'/></div>
-          </div>
-          <div className='todo-content'>
-            <p>Starts the works on time because of the tight schedules for upcoming days. At least complete the requirements gatheirng within 1 week period.</p>
-            <img src={Project} className='todo-img'/>
-          </div>
-          <div className='todo-status'>
-            <div className='status-priority'>
-              <p>Priority: <span>Moderate</span></p>
-            </div>
-            <div className='status-progress'>
-              <p>Status: <span>In Progress</span></p>
-            </div>
-            <div className='status-date'>
-              <p>Created On: 03/07/2024</p>
+              <div className='status'>
+                <p>Status: <span>Not Started</span></p>
+              </div>
+              <div className='status-date'>
+                <p>Created On: 03/07/2024</p>
+              </div>
             </div>
           </div>
-        </div>
 
-      </div>
-
-    </div>
-
-    <div className='task-status'>
-
-      <div className='progress-bar-container'>
-        <div className="progress-bar-header">
-          <div>
-            <PiChartPieSliceFill size={30} color='gray'/><span>Task Status</span>
+          <div className='todo-container'>
+            <div className='todo-content-header'>
+              <div className='todo-bullet-header'>
+                <div className="outer-circle-progress">
+                  <div className="inner-circle"></div>
+                </div>
+                <h3>Start the new project on food store</h3>
+              </div>
+              <div><PiDotsThreeOutlineLight size={20} color='gray'/></div>
+            </div>
+            <div className='todo-content'>
+              <p>Starts the works on time because of the tight schedules for upcoming days. At least complete the requirements gatheirng within 1 week period.</p>
+              <img src={Project} className='todo-img'/>
+            </div>
+            <div className='todo-status'>
+              <div className='status-priority'>
+                <p>Priority: <span>Moderate</span></p>
+              </div>
+              <div className='status-progress'>
+                <p>Status: <span>In Progress</span></p>
+              </div>
+              <div className='status-date'>
+                <p>Created On: 03/07/2024</p>
+              </div>
+            </div>
           </div>
+
         </div>
-        <div className='progress-bars'>
-        </div>
-        <div className='prograss-bar-tip-container'>
-          <div className='prograss-bar-tip'><span className='complete-bar'></span>Completed</div>
-          <div className='prograss-bar-tip'><span className='inprogess-bar'></span>In Progress</div>
-          <div className='prograss-bar-tip'><span className='notstarted-bar'></span>Not Started</div>
-        </div>
+
       </div>
 
       <div className='completed-tasks-container'>
-        
-        <div className='completion-task-header'>
-          <div>
-            <div><LuClipboardCheck size={30} color='gray'/></div>
-            <span>Completed Task</span>
-          </div>
-        </div>
-
-        <div className='completed-tasks'>
-          <div className='completion-content-header'>
-            <div className='completion-bullet-header'>
-              <div className="outer-circle-complete-task">
-                <div className="inner-circle"></div>
-              </div>
-              <h4>Completed The Designing phase of the futsal booking System</h4>
-            </div>
-            <div><PiDotsThreeOutlineLight size={20} color='gray'/></div>
-          </div>
-          <div className='completion-content'>
-            <p>Complete all the interfaces for the futsal booking system using Figma.</p>
-            <img src={UIDesign} className='todo-img'/>
-          </div>
-          <div className='completion-status'>
-            <div className='status-completion'>
-              <p>Status: <span>Completed</span></p>
-            </div>
-            <div className='status-date'>
-              <p>Completed 2 days ago.</p>
-            </div>
-          </div>
-        </div>
-
-        <div className='completed-tasks'>
-          <div className='completion-content-header'>
-            <div className='completion-bullet-header'>
-              <div className="outer-circle-complete-task">
-                <div className="inner-circle"></div>
-              </div>
-              <h4>Completed The Designing phase of the futsal booking System</h4>
-            </div>
-            <div><PiDotsThreeOutlineLight size={20} color='gray'/></div>
-          </div>
-          <div className='completion-content'>
-            <p>Complete all the interfaces for the futsal booking system using Figma.</p>
-            <img src={UIDesign} className='todo-img'/>
-          </div>
-          <div className='completion-status'>
-            <div className='status-completion'>
-              <p>Status: <span>Completed</span></p>
-            </div>
-            <div className='status-date'>
-              <p>Completed 2 days ago.</p>
-            </div>
-          </div>
-        </div>
       </div>
-
-    </div>
     </div>
   )
 }

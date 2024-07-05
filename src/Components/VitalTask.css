@@ -1,6 +1,6 @@
 .tasks-container {
     display: flex;
-    align-items: start;
+    align-items: center;
     justify-content: space-between;
     position: absolute;
     top: 150px;
@@ -185,12 +185,14 @@
 /* Progress Bar section Styles */
 
 .completed-tasks-container {
-    border: none;
+    height: 650px;
     background-color: rgb(251, 251, 255);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    padding: 25px 25px 41px 25px;
-    border-radius: 10px;
-    margin-top: 20px;
+    padding: 25px;
+    border-radius: 10px; 
+    width: 420px;
+    border: none;
+    margin-left: 25px;
 }
 
 .completed-tasks {
@@ -205,71 +207,6 @@
     width: 420px;
     border: none;
     margin-left: 25px;
-}
-
-.progress-bar-container {
-    border: none;
-    background-color: rgb(251, 251, 255);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    padding: 25px 25px 45px 25px;
-    border-radius: 10px;
-}
-
-.progress-bar-header div {
-    display: flex;
-    align-items: center;
-    margin-bottom: 35px;
-}
-
-.progress-bar-header span {
-    font-size: 18px;
-    font-weight: bold;
-    margin-left: 10px;
-    color: #FF6767;
-} 
-
-.progress-bars {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.progress-bars div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.prograss-bar-tip-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 15px;
-}
-
-.prograss-bar-tip {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.prograss-bar-tip span {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    margin-right: 5px;
-}
-
-.complete-bar {
-    background-color: rgb(9, 204, 70);
-}
-
-.inprogess-bar {
-    background-color: blue;
-}
-
-.notstarted-bar {
-    background-color: red;
 }
 
 .completion-task-header > div {
