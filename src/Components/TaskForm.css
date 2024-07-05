@@ -6,7 +6,7 @@
     top: -2px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     background-color: white;
-    padding: 50px;
+    padding: 50px 50px 30px 50px;
     border-radius: 15px;
     z-index: 1000;
 }
@@ -125,4 +125,14 @@ label {
 
 .low {
     background-color: rgb(8, 212, 8);
+}
+
+.submit-btn {
+    margin-top: 25px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #FF6767;
+    cursor: pointer;
 }

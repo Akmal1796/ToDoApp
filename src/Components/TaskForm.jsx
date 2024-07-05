@@ -49,7 +49,9 @@ const TaskForm = ({ isFormOpen, toggleForm }) => {
                 </div>
             </form>
         </div>
-        <div></div>
+        <div>
+            <button type='submit' className='submit-btn'>Done</button>
+        </div>
     </div>
   )
 }
