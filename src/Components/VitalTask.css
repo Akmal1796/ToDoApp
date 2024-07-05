@@ -52,7 +52,7 @@
 }
 
 .vital-todo-content-header h3 {
-    width: 260px;
+    width: 280px;
 }
 
 .vital-todo-bullet-header {
@@ -98,7 +98,7 @@
     display: flex;
     align-items: center;
     margin-left: 29px;
-    width: 280px;
+    width: 300px;
 }
 
 .vital-todo-img {
@@ -141,7 +141,7 @@
     background-color: rgb(251, 251, 255);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    width: 480px;
+    width: 580px;
     border: none;
     margin-top: 0;
     margin-left: 25px;
