@@ -75,34 +75,6 @@ const VitalTask = () => {
         </div>
 
       </div>
-      <div className='old-container'>
-        <div className='todo-container old'>
-          <div className='todo-content-header'>
-            <div className='todo-bullet-header'>
-              <div className="outer-circle-progress">
-                <div className="inner-circle"></div>
-              </div>
-              <h3>Completing the development process</h3>
-            </div>
-            <div><PiDotsThreeOutlineLight size={20} color='gray'/></div>
-          </div>
-          <div className='todo-content'>
-            <p>Continue the works on the development process of the portfolio website and complete all the remaining dvelopment works and move on to the testing phase of the development lifecycle.</p>
-            <img src={webdevelopment} className='todo-img'/>
-          </div>
-          <div className='todo-status'>
-            <div className='status-priority'>
-              <p>Priority: <span>Moderate</span></p>
-            </div>
-            <div className='status-progress'>
-              <p>Status: <span>In Progress</span></p>
-            </div>
-            <div className='status-date'>
-              <p>Created On: 01/07/2024</p>
-            </div>
-          </div>
-        </div>
-      </div>
 
     </div>
 
