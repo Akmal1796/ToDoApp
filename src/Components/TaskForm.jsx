@@ -39,7 +39,7 @@ const TaskForm = ({ isFormOpen, toggleForm }) => {
                 <div className='task-description-container'>
                     <div className='task-description'>
                         <label>Task Description</label>
-                        <textarea cols={45} rows={8}/>
+                        <textarea cols={50} rows={10} className='text-area' placeholder='Start write here...'/>
                     </div>
 
                     <div className='task-image-container'>
