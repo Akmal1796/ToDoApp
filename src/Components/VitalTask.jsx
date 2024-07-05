@@ -16,22 +16,8 @@ const VitalTask = () => {
       <div>
 
         <div className='todo-header'>
-
-          <div className='todo-header-left-section'>
-            <div className='header-left'><LuListTodo size={30} color='gray'/>
-            <span> To-Do</span></div>
-            <div className='header-date'>03 July <span> ·Today</span></div>
-          </div>
-
-          <div className='todo-header-right-section'>
-            <div>
-              <div className='header-right'>
-                <LuPlus size={18} className='plus-icon'/>
-                <span> Add Task</span>
-              </div>
-            </div>
-          </div>
-
+          <div className='heading'>Vital Tasks</div>
+          <div className='underline'></div>
         </div>
 
         <div className='todo-container'>

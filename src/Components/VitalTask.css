@@ -1,32 +1,24 @@
-.all-task-section-container {
-    position: relative;
-}
-
-.greeting-section {
-    position: absolute;
-    top: -30px;
-    left: 460px;
-}
-
-.overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
-    z-index: 1000; /* Ensure it covers other elements */
-  }
-
 .tasks-container {
     display: flex;
     align-items: start;
     justify-content: space-between;
     position: absolute;
-    top: 30px;
+    top: 150px;
     left: 450px;
     border: 2px solid lightgray;
     padding: 20px;
+}
+
+.heading {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.underline {
+    height: 2px;
+    width: 58px;
+    border-radius: 10px;
+    background-color: #fa2323;
 }
 
 .todo {
@@ -40,8 +32,8 @@
 
 .todo-header {
     display: flex;
-    align-items: first baseline;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: start;
 }
 
 .todo-container {
