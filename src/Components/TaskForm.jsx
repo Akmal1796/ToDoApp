@@ -15,14 +15,16 @@ const TaskForm = ({ isFormOpen, toggleForm }) => {
                     <input type='text' className='input-box' placeholder='Start the project...'/>
                 </div>
 
-                <div className='task-date'>
-                    <label>Start Date</label>
-                    <input type='date' className='input-box'/>
-                </div>
+                <div className='task-date-container'>
+                    <div className='task-date'>
+                        <label>Start Date</label>
+                        <input type='date' className='input-box'/>
+                    </div>
 
-                <div className='task-date'>
-                    <label>Due Date</label>
-                    <input type='date' className='input-box'/>
+                    <div className='task-date'>
+                        <label>Due Date</label>
+                        <input type='date' className='input-box'/>
+                    </div>
                 </div>
 
                 <div className='task-priority'>

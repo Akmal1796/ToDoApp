@@ -6,7 +6,7 @@
     top: -2px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     background-color: white;
-    padding: 25px;
+    padding: 50px;
     border-radius: 15px;
     z-index: 1000;
 }
@@ -47,20 +47,37 @@
     border-radius: 2px;
 }
 
-.task-title, 
-.task-date, 
+.task-date-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.task-date label {
+    margin-right: 20px;
+}
+
+.task-title,
 .task-priority {
     display: flex;
     flex-direction: column;
-    font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     width: 650px;
+}
+
+.task-priority {
+    margin-top: 10px;
 }
 
 .task-description-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .input-box {
