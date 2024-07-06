@@ -137,20 +137,46 @@
 /* Progress Bar section Styles */
 
 .vital-completed-tasks-container {
-    height: 751px;
+    height: 681px;
     background-color: rgb(251, 251, 255);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    width: 580px;
+    width: 480px;
     border: none;
     margin-top: 0;
     margin-left: 25px;
+    padding: 35px;
 }
 
 .complete-header {
     display: flex;
+    align-items: flex-end;
+}
+
+.complete-header-dsicription {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .completed-img {
-    width: 100px;
+    height: 150px;
+    width: 180px;
+    border-radius: 10px;
+    margin-right: 25px;
+}
+
+.complete-status {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.complete-status span {
+    color: #fa2323;
+}
+
+.complete-created-date {
+    color: rgb(175, 175, 175);
+    font-size: 13px;
 }
