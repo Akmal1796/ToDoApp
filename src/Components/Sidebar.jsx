@@ -7,9 +7,7 @@ import { BiTask } from "react-icons/bi";
 import { BsListTask } from "react-icons/bs";
 import { IoMdSettings, IoMdHelpCircle } from "react-icons/io";
 
-const Sidebar = () => {
-
-    const [activeItem, setActiveItem] = useState('Dashboard');
+const Sidebar = ({ activeItem, setActiveItem }) => {
 
   const menuItems = [
     { name: 'Dashboard', icon: <MdDashboard className='sidebar-icons' /> },

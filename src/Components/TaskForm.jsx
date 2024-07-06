@@ -44,7 +44,7 @@ const TaskForm = ({ isFormOpen, toggleForm }) => {
 
                     <div className='task-image-container'>
                         <label>Upload Image</label>
-                        <label for="images" class="drop-container" id="dropcontainer">
+                        <label htmlFor="images" className="drop-container" id="dropcontainer">
                             <span className="drop-title">Drop image here</span>
                             or
                             <input type="file" id="images" accept="image/*" required />
