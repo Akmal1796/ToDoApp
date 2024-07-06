@@ -4,10 +4,8 @@ import { LuPlus } from "react-icons/lu";
 import { PiDotsThreeOutlineLight } from "react-icons/pi";
 import UIDesign from '/public/Images/UIdesign.jpg'
 import Project from '/public/Images/project.jpeg'
-import webdevelopment from '/public/Images/webDevelopment.jpg'
-import { LuClipboardCheck } from "react-icons/lu";
-import { LuListTodo } from "react-icons/lu";
-import { PiChartPieSliceFill } from "react-icons/pi";
+import { ImBin } from "react-icons/im";
+import { MdNoteAlt } from "react-icons/md";
 
 const VitalTask = () => {
   return (
@@ -91,7 +89,10 @@ const VitalTask = () => {
           </div>
         </div>
         <div></div>
-        <div></div>
+        <div className='complete-icons-container'>
+          <ImBin size={30} color='white' className='complete-section-icon'/>
+          <MdNoteAlt size={30} color='white' className='complete-section-icon'/>
+        </div>
       </div>
     </div>
   )

@@ -180,3 +180,15 @@
     color: rgb(175, 175, 175);
     font-size: 13px;
 }
+
+.complete-icons-container {
+    display: flex;
+    align-items: center;
+}
+
+.complete-section-icon {
+    background-color: #fa2323;
+    padding: 5px 6px 10px 8px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
