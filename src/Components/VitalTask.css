@@ -146,3 +146,11 @@
     margin-top: 0;
     margin-left: 25px;
 }
+
+.complete-header {
+    display: flex;
+}
+
+.completed-img {
+    width: 100px;
+}

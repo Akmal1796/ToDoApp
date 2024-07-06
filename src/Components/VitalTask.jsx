@@ -79,8 +79,16 @@ const VitalTask = () => {
       </div>
 
       <div className='vital-completed-tasks-container'>
-        <div>
-          <img src={UIDesign} />
+        <div  className='complete-header'>
+          <img src={UIDesign} className='completed-img'/>
+          <div>
+            <h4>Completed the landing page</h4>
+            <div>
+              <p>Priority: <span>Extreme</span></p>
+              <p>Status: <span>Not Started</span></p>
+            </div>
+            <p>Created on 06/07/2024</p>
+          </div>
         </div>
         <div></div>
         <div></div>
