@@ -188,7 +188,8 @@
 
 .complete-section-icon {
     background-color: #fa2323;
-    padding: 5px 6px 10px 8px;
+    padding: 5px 5px 8px 5px;
     border-radius: 10px;
     margin-right: 10px;
+    cursor: pointer;
 }

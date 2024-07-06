@@ -90,8 +90,8 @@ const VitalTask = () => {
         </div>
         <div></div>
         <div className='complete-icons-container'>
-          <ImBin size={30} color='white' className='complete-section-icon'/>
-          <MdNoteAlt size={30} color='white' className='complete-section-icon'/>
+          <ImBin size={20} color='white' className='complete-section-icon'/>
+          <MdNoteAlt size={20} color='white' className='complete-section-icon'/>
         </div>
       </div>
     </div>
