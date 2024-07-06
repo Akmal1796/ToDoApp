@@ -2,9 +2,8 @@
     display: flex;
     justify-content: space-between;
     position: absolute;
-    top: 150px;
-    left: 450px;
-    border: 2px solid lightgray;
+    top: 152px;
+    left: 452px;
     padding: 20px;
 }
 
@@ -181,9 +180,23 @@
     font-size: 13px;
 }
 
+.completion-details-container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.completion-details-container p,li {
+    margin: 12px;
+}
+
+.completion-details-container ol span {
+    font-weight: bold;
+}
+
 .complete-icons-container {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
 }
 
 .complete-section-icon {

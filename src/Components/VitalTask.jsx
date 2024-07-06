@@ -77,6 +77,7 @@ const VitalTask = () => {
       </div>
 
       <div className='vital-completed-tasks-container'>
+
         <div  className='complete-header'>
           <img src={UIDesign} className='completed-img'/>
           <div className='complete-header-dsicription'>
@@ -88,7 +89,21 @@ const VitalTask = () => {
             <p className='complete-created-date'>Created on 06/07/2024</p>
           </div>
         </div>
-        <div></div>
+
+        <div className='completion-details-container'>
+        <p>Our new landing page is now live! It's designed to captivate visitors with its appealing layout and easy navigation, providing a seamless user experience.
+        </p>
+        <p>We focused on aligning the page with our brand and optimizing it for performance. The result is an attractive and effective entry point to our website.</p>
+        <h4>Key Steps in Completing the Landing Page</h4>
+        <ol>
+          <li><span>Planning and Research:</span> Conducted thorough research to understand user needs and preferences, and planned the structure and content of the landing page accordingly.</li>
+          <li><span>Design Mockups:</span> Created design mockups to visualize the layout, color scheme, and overall aesthetic, ensuring it aligns with our brand identity.</li>
+          <li><span>Development:</span> Used HTML, CSS, and JavaScript to bring the design to life, focusing on responsiveness and cross-browser compatibility.</li>
+          <li><span>Content Integration:</span> Added engaging and informative content, including text, images, and videos, to effectively communicate our message and attract visitors.</li>
+          <li><span>Testing and Optimization:</span> Performed rigorous testing to identify and fix any issues, and optimized the page for fast load times and SEO to enhance user experience and visibility.  </li>
+        </ol>
+        </div>
+
         <div className='complete-icons-container'>
           <ImBin size={20} color='white' className='complete-section-icon'/>
           <MdNoteAlt size={20} color='white' className='complete-section-icon'/>
