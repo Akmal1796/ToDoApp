@@ -79,6 +79,11 @@ const VitalTask = () => {
       </div>
 
       <div className='vital-completed-tasks-container'>
+        <div>
+          <img src={UIDesign} />
+        </div>
+        <div></div>
+        <div></div>
       </div>
     </div>
   )
