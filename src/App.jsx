@@ -4,6 +4,7 @@ import Sidebar from './Components/Sidebar'
 import TaskForm from './Components/TaskForm'
 import Tasks from './Components/Tasks'
 import VitalTask from './Components/VitalTask'
+import MyTasks from './Components/MyTasks'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Tasks />
       <Sidebar />
       <VitalTask />
+      <MyTasks />
     </div>
   )
 }

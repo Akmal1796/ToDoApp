@@ -1,19 +1,19 @@
 import React from 'react'
-import './VitalTask.css'
+import './MyTasks.css'
 import { PiDotsThreeOutlineLight } from "react-icons/pi";
 import UIDesign from '/public/Images/UIdesign.jpg'
 import Project from '/public/Images/project.jpeg'
 import { ImBin } from "react-icons/im";
 import { MdNoteAlt } from "react-icons/md";
 
-const VitalTask = () => {
+const MyTasks = () => {
   return (
     <div className='vital-tasks-container'>
       <div className='vital-todo'>
         <div>
 
           <div className='vital-todo-header'>
-            <div className='vital-heading'>Vital Tasks</div>
+            <div className='vital-heading'>My Tasks</div>
             <div className='vital-underline'></div>
           </div>
 
@@ -112,4 +112,4 @@ const VitalTask = () => {
   )
 }
 
-export default VitalTask
+export default MyTasks
