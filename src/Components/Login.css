@@ -11,3 +11,21 @@
     background-color: white;
     position: absolute;
 }
+
+.input-container {
+    position: relative;
+    width: fit-content;
+  }
+  
+  .input-container .icon-class {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #999; /* Change color as needed */
+  }
+  
+  .input-container input {
+    padding: 10px 55px;
+    width: 100%;
+  }
