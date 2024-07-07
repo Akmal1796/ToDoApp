@@ -24,6 +24,12 @@ const Tasks = () => {
       setForm(prevState => !prevState);
   }
 
+  const [isMenuShowing, setMenu] = useState(false);
+
+  function toggleMenu() {
+    setMenu(prevState => !prevState);
+  }
+
   return (
     <div className='all-task-section-container'>
       <div className='greeting-section'>
@@ -65,7 +71,17 @@ const Tasks = () => {
                 </div>
                 <h3>Complete The Landing Page UI Design</h3>
               </div>
-              <div><PiDotsThreeOutlineLight size={20} color='gray'/></div>
+              <div onClick={toggleMenu}><PiDotsThreeOutlineLight size={20} color='gray'/></div>
+              {isMenuShowing && (
+                <div className='task-edit-menu'>
+                  <ul>
+                    <li>Remove from Vital</li>
+                    <li>Edit</li>
+                    <li>Delete</li>
+                    <li>Finish</li>
+                  </ul>
+                </div>
+              )}
             </div>
             <div className='todo-content'>
               <p>Get the work done before 4'O clock with complete responsive design</p>
