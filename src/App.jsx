@@ -7,6 +7,7 @@ import Tasks from './Components/Tasks'
 import VitalTask from './Components/VitalTask'
 import MyTasks from './Components/MyTasks'
 import Login from './Components/Login'
+import Register from './Components/Register'
 
 const App = () => {
 
@@ -14,8 +15,9 @@ const App = () => {
 
   return (
     <div>
-      <Login />
-{/*       <Nav />
+      <Register />
+      {/* <Login />
+      <Nav />
       {activeItem === 'Dashboard' && <Tasks />}
       <Sidebar activeItem={activeItem} setActiveItem={setActiveItem} />
       {activeItem === 'Vital Task' && <VitalTask />}
