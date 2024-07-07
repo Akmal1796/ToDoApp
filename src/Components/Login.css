@@ -10,6 +10,12 @@
 .login-container {
     background-color: white;
     position: absolute;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    border-radius: 15px;
+    padding-top: 100px;
+    width: 1200px;
 }
 
 .input-container {
