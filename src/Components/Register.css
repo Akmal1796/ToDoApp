@@ -1,0 +1,101 @@
+.login-page {
+    background: url('/public/Images/login-bg.png') rgb(255, 94, 94);
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container {
+    background-color: white;
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 50px;
+    border-radius: 15px;
+    height: 650px;
+    width: 1200px;
+}
+
+.input-container {
+    position: relative;
+    width: fit-content;
+}
+  
+.input-container .icon-class {
+    position: absolute;
+    top: 40%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #999;
+}
+  
+.input-container input {
+    padding: 10px 55px;
+}
+
+.login-left-section {
+    margin-top: -10px;
+    margin-left: 0;
+}
+
+.login-left-section h1 {
+    margin-bottom: 25px;
+}
+
+.input-box {
+    margin-bottom: 15px;
+    border: none;
+    background-color: antiquewhite;
+    height: 30px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.remeber-me-section {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: first baseline;
+    gap: 15px;
+}
+
+.login-btn {
+    padding: 15px 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    background-color: #FF6767;
+    transition: background-color 0.2s;cursor: pointer;
+    margin-bottom: 55px;
+}
+
+.login-btn:hover {
+    background-color: #fa2323;
+}
+
+.login-brand-container {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login-with-brands-account {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.login-right-section {
+    margin-top: -20px;
+}
+
+.login-brand-container p a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(68, 162, 255);
+}
