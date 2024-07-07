@@ -91,14 +91,19 @@ const MyTasks = () => {
 
         <div className='completion-details-container'>
 
-            <h3>Task Tite:</h3>
-            <p>Document Submission</p>
+            <div>
+                <h3>Task Tite:</h3>
+                <p>Document Submission</p>
+            </div>
 
-            <h3>Objective:</h3>
-            <p>To submit required documents for something important</p>
+            <div>
+                <h3>Objective:</h3>
+                <p>To submit required documents for something important</p>
+            </div>
 
-            <h3>Task Description:</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos aperiam laudantium saepe molestiae cum nihil provident? Laudantium voluptas modi, aspernatur accusantium, ipsum nam quisquam repellat doloribus, tempora incidunt numquam odio!</p>
+            <div>
+                <p><span>Task Description: </span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos aperiam laudantium saepe molestiae cum nihil provident? Laudantium voluptas modi, aspernatur accusantium, ipsum nam quisquam repellat doloribus, tempora incidunt numquam odio!</p>
+            </div>
 
             <h3>Additional Notes:</h3>
             <ul>
@@ -107,8 +112,10 @@ const MyTasks = () => {
                 <li>If there are specific guidlines pr deadlines for submission, adhere to them diligently.</li>
             </ul>
 
-            <h3>Deadline for Submission:</h3>
-            <p>End of Day</p>
+            <div>
+                <h3>Deadline for Submission:</h3>
+                <p>End of Day</p>
+            </div>
         </div>
 
         <div className='complete-icons-container'>

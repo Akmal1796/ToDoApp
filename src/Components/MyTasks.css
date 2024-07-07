@@ -186,6 +186,18 @@
     margin-bottom: 15px;
 }
 
+.completion-details-container div {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.completion-details-container div span {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: -10px;
+}
+
 .completion-details-container p,li {
     margin: 12px;
 }
