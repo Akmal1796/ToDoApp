@@ -1,8 +1,8 @@
 import React from 'react'
 import './MyTasks.css'
 import { PiDotsThreeOutlineLight } from "react-icons/pi";
-import UIDesign from '/public/Images/UIdesign.jpg'
-import Project from '/public/Images/project.jpeg'
+import documents from '/public/Images/documents.webp'
+import assignment from '/public/Images/assignment.jpg'
 import { ImBin } from "react-icons/im";
 import { MdNoteAlt } from "react-icons/md";
 
@@ -23,23 +23,23 @@ const MyTasks = () => {
                 <div className="vital-outer-circle">
                   <div className="vital-inner-circle"></div>
                 </div>
-                <h3>Complete The Landing Page UI Design</h3>
+                <h3>Submit Documents</h3>
               </div>
               <div><PiDotsThreeOutlineLight size={20} color='gray'/></div>
             </div>
             <div className='vital-todo-content'>
-              <p>Get the work done before 4'O clock with complete responsive design</p>
-              <img src={UIDesign} className='vital-todo-img'/>
+              <p>Make sure to submit all the necessary docments to the stakeholders.</p>
+              <img src={documents} className='vital-todo-img'/>
             </div>
             <div className='vital-todo-status'>
-              <div className='vital-status-priority'>
-                <p>Priority: <span>Moderate</span></p>
+              <div className='vital-status'>
+                <p>Priority: <span>Extreme</span></p>
               </div>
               <div className='vital-status'>
                 <p>Status: <span>Not Started</span></p>
               </div>
               <div className='vital-status-date'>
-                <p>Created On: 03/07/2024</p>
+                <p>Created On: 05/07/2024</p>
               </div>
             </div>
           </div>
@@ -50,13 +50,13 @@ const MyTasks = () => {
                 <div className="vital-outer-circle-progress">
                   <div className="vital-inner-circle"></div>
                 </div>
-                <h3>Start the new project on food store</h3>
+                <h3>Comlete Assignments</h3>
               </div>
               <div><PiDotsThreeOutlineLight size={20} color='gray'/></div>
             </div>
             <div className='vital-todo-content'>
-              <p>Starts the works on time because of the tight schedules for upcoming days. At least complete the requirements gatheirng within 1 week period.</p>
-              <img src={Project} className='vital-todo-img'/>
+              <p>The assignment must b completed to pass the 4th semeter.</p>
+              <img src={assignment} className='vital-todo-img'/>
             </div>
             <div className='vital-todo-status'>
               <div className='vital-status-priority'>
@@ -66,7 +66,7 @@ const MyTasks = () => {
                 <p>Status: <span>In Progress</span></p>
               </div>
               <div className='vital-status-date'>
-                <p>Created On: 03/07/2024</p>
+                <p>Created On: 06/07/2024</p>
               </div>
             </div>
           </div>
@@ -78,7 +78,7 @@ const MyTasks = () => {
       <div className='vital-completed-tasks-container'>
 
         <div  className='complete-header'>
-          <img src={UIDesign} className='completed-img'/>
+          <img src={documents} className='completed-img'/>
           <div className='complete-header-dsicription'>
             <h3>Completed the landing page</h3>
             <div className='complete-status'>
