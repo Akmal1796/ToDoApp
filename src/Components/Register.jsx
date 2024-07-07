@@ -28,19 +28,19 @@ const Register = () => {
                             <i className="icon-class"><MdLock size={30} color='black'/></i>
                             <input type="text" placeholder="Enter Password" className='input-box'/>
                         </div>
-                        <div className='remeber-me-section'>
+                        <div className='terms-section'>
                             <input type='checkbox' />
-                            <label>Remeber me</label>
+                            <label>I agree all terms</label>
                         </div>
                         <div>
-                            <button type='submit' className='login-btn'>Login</button>
+                            <button type='submit' className='register-btn'>Register</button>
                         </div>
                     </form>
     
                     <div className='login-brand-container'>
                         <div className='login-with-brands-account'>
                         </div>
-                        <p>Don't have an account? <a href=''>Create One</a></p>                   
+                        <p>Already have an account? <a href=''>Sign In</a></p>                   
                     </div>
                 </div>
             </div>

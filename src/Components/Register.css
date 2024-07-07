@@ -33,7 +33,7 @@
 }
   
 .input-container input {
-    padding: 10px 55px;
+    padding: 15px 55px;
 }
 
 .login-left-section {
@@ -41,7 +41,7 @@
     margin-left: 0;
 }
 
-.login-left-section h1 {
+.login-right-section h1 {
     margin-bottom: 25px;
 }
 
@@ -50,11 +50,11 @@
     border: none;
     background-color: antiquewhite;
     height: 30px;
-    width: 350px;
+    width: 450px;
     border-radius: 10px;
 }
 
-.remeber-me-section {
+.terms-section {
     margin-top: 10px;
     margin-bottom: 25px;
     display: flex;
@@ -62,7 +62,7 @@
     gap: 15px;
 }
 
-.login-btn {
+.register-btn {
     padding: 15px 35px;
     border: none;
     border-radius: 5px;
@@ -70,10 +70,10 @@
     color: white;
     background-color: #FF6767;
     transition: background-color 0.2s;cursor: pointer;
-    margin-bottom: 55px;
+    margin-bottom: 5px;
 }
 
-.login-btn:hover {
+.register-btn:hover {
     background-color: #fa2323;
 }
 
@@ -91,7 +91,8 @@
 }
 
 .login-right-section {
-    margin-top: -20px;
+    margin-top: 25px;
+    margin-right: 60px;
 }
 
 .login-brand-container p a {
