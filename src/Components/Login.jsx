@@ -1,6 +1,9 @@
 import React from 'react'
 import './Login.css'
 import IMG from '/public/Images/login-img.png'
+import google from '/public/Images/google.png'
+import facebook from '/public/Images/fb.png'
+import twitter from '/public/Images/twitter.png'
 import { IoPersonSharp } from "react-icons/io5";
 import { MdLock } from "react-icons/md";
 
@@ -31,6 +34,9 @@ const Login = () => {
 
                 <div>
                     <p>Or, Login with</p>
+                    <img src={facebook} width={25}/>
+                    <img src={google} width={25}/>
+                    <img src={twitter} width={25}/>
                     <p>Don't have an account? <a href=''>Create One</a></p>                   
                 </div>
             </div>
