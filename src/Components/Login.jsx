@@ -24,8 +24,8 @@ const Login = () => {
                         <input type="text" placeholder="Enter Password" className='input-box'/>
                     </div>
                     <div className='remeber-me-section'>
-                        <label>Remeber me</label>
                         <input type='checkbox' />
+                        <label>Remeber me</label>
                     </div>
                     <div>
                         <button type='submit' className='login-btn'>Login</button>
@@ -33,10 +33,12 @@ const Login = () => {
                 </form>
 
                 <div>
-                    <p>Or, Login with</p>
-                    <img src={facebook} width={25}/>
-                    <img src={google} width={25}/>
-                    <img src={twitter} width={25}/>
+                    <div className='login-with-brands-account'>
+                        <p>Or, Login with</p>
+                        <img src={facebook} width={25}/>
+                        <img src={google} width={25}/>
+                        <img src={twitter} width={25}/>
+                    </div>
                     <p>Don't have an account? <a href=''>Create One</a></p>                   
                 </div>
             </div>

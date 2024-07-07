@@ -57,6 +57,8 @@
     margin-top: 10px;
     margin-bottom: 25px;
     display: flex;
+    align-items: first baseline;
+    gap: 15px;
 }
 
 .login-btn {
@@ -72,4 +74,10 @@
 
 .login-btn:hover {
     background-color: #fa2323;
+}
+
+.login-with-brands-account {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
