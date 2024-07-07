@@ -28,6 +28,11 @@ const Login = () => {
                         <button type='submit'>Login</button>
                     </div>
                 </form>
+
+                <div>
+                    <p>Or, Login with</p>
+                    <p>Don't have an account? <a href=''>Create One</a></p>                   
+                </div>
             </div>
 
             <div className='login-right-section'>

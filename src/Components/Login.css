@@ -25,7 +25,7 @@
   
   .input-container .icon-class {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 10px;
     transform: translateY(-50%);
     color: #999; /* Change color as needed */
