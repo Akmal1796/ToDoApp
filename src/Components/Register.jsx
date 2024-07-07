@@ -21,12 +21,28 @@ const Register = () => {
                     <h1>Sign In</h1>
                     <form>
                         <div className="input-container">
+                            <i className="icon-class"><MdPersonAddAlt1 size={30} color='black'/></i>
+                            <input type="text" placeholder="Enter First Name" className='input-box'/>
+                        </div>
+                        <div className="input-container">
+                            <i className="icon-class"><MdPersonAddAlt size={30} color='black'/></i>
+                            <input type="text" placeholder="Enter Last Name" className='input-box'/>
+                        </div>
+                        <div className="input-container">
                             <i className="icon-class"><IoPersonSharp size={30} color='black'/></i>
                             <input type="text" placeholder="Enter Username" className='input-box'/>
                         </div>
                         <div className="input-container">
+                            <i className="icon-class"><IoMdMail size={30} color='black'/></i>
+                            <input type="text" placeholder="Enter Email" className='input-box'/>
+                        </div>
+                        <div className="input-container">
                             <i className="icon-class"><MdLock size={30} color='black'/></i>
-                            <input type="text" placeholder="Enter Password" className='input-box'/>
+                            <input type="password" placeholder="Enter Password" className='input-box'/>
+                        </div>
+                        <div className="input-container">
+                            <i className="icon-class"><MdOutlineLock size={30} color='black'/></i>
+                            <input type="password" placeholder="Confirm Password" className='input-box'/>
                         </div>
                         <div className='terms-section'>
                             <input type='checkbox' />

@@ -56,7 +56,7 @@
 
 .terms-section {
     margin-top: 10px;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     display: flex;
     align-items: first baseline;
     gap: 15px;
@@ -91,7 +91,7 @@
 }
 
 .login-right-section {
-    margin-top: 25px;
+    margin-top: -25px;
     margin-right: 60px;
 }
 
