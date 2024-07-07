@@ -71,7 +71,7 @@ const Tasks = () => {
                 </div>
                 <h3>Complete The Landing Page UI Design</h3>
               </div>
-              <div onClick={toggleMenu}><PiDotsThreeOutlineLight size={20} color='gray'/></div>
+              <div><PiDotsThreeOutlineLight size={20} color='gray'  onClick={toggleMenu}/></div>
               {isMenuShowing && (
                 <div className='task-edit-menu'>
                   <ul>
