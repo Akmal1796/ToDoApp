@@ -80,27 +80,35 @@ const MyTasks = () => {
         <div  className='complete-header'>
           <img src={documents} className='completed-img'/>
           <div className='complete-header-dsicription'>
-            <h3>Completed the landing page</h3>
+            <h3>Submit Documents</h3>
             <div className='complete-status'>
               <p>Priority: <span>Extreme</span></p>
               <p>Status: <span>Not Started</span></p>
             </div>
-            <p className='complete-created-date'>Created on 06/07/2024</p>
+            <p className='complete-created-date'>Created on 05/07/2024</p>
           </div>
         </div>
 
         <div className='completion-details-container'>
-        <p>Our new landing page is now live! It's designed to captivate visitors with its appealing layout and easy navigation, providing a seamless user experience.
-        </p>
-        <p>We focused on aligning the page with our brand and optimizing it for performance. The result is an attractive and effective entry point to our website.</p>
-        <h4>Key Steps in Completing the Landing Page</h4>
-        <ol>
-          <li><span>Planning and Research:</span> Conducted thorough research to understand user needs and preferences, and planned the structure and content of the landing page accordingly.</li>
-          <li><span>Design Mockups:</span> Created design mockups to visualize the layout, color scheme, and overall aesthetic, ensuring it aligns with our brand identity.</li>
-          <li><span>Development:</span> Used HTML, CSS, and JavaScript to bring the design to life, focusing on responsiveness and cross-browser compatibility.</li>
-          <li><span>Content Integration:</span> Added engaging and informative content, including text, images, and videos, to effectively communicate our message and attract visitors.</li>
-          <li><span>Testing and Optimization:</span> Performed rigorous testing to identify and fix any issues, and optimized the page for fast load times and SEO to enhance user experience and visibility.  </li>
-        </ol>
+
+            <h3>Task Tite:</h3>
+            <p>Document Submission</p>
+
+            <h3>Objective:</h3>
+            <p>To submit required documents for something important</p>
+
+            <h3>Task Description:</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos aperiam laudantium saepe molestiae cum nihil provident? Laudantium voluptas modi, aspernatur accusantium, ipsum nam quisquam repellat doloribus, tempora incidunt numquam odio!</p>
+
+            <h3>Additional Notes:</h3>
+            <ul>
+                <li>Ensure that document are authentic and up-to-date.</li>
+                <li>Maitain confidentiality and security of sensitive information during the submission process.</li>
+                <li>If there are specific guidlines pr deadlines for submission, adhere to them diligently.</li>
+            </ul>
+
+            <h3>Deadline for Submission:</h3>
+            <p>End of Day</p>
         </div>
 
         <div className='complete-icons-container'>
