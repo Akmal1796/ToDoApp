@@ -21,7 +21,7 @@ const Login = () => {
                     </div>
                     <div class="input-container">
                         <i class="icon-class"><MdLock size={30} color='black'/></i>
-                        <input type="text" placeholder="Enter Password" className='input-box'/>
+                        <input type="password" placeholder="Enter Password" className='input-box'/>
                     </div>
                     <div className='remeber-me-section'>
                         <input type='checkbox' />

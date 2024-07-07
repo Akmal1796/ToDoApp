@@ -18,7 +18,7 @@ const Register = () => {
                 </div>
     
                 <div className='login-right-section'>
-                    <h1>Sign In</h1>
+                    <h1>Sign Up</h1>
                     <form>
                         <div className="input-container">
                             <i className="icon-class"><MdPersonAddAlt1 size={30} color='black'/></i>
