@@ -12,26 +12,64 @@
     position: absolute;
     display: flex;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-top: 50px;
     border-radius: 15px;
-    padding-top: 100px;
+    height: 650px;
     width: 1200px;
 }
 
 .input-container {
     position: relative;
     width: fit-content;
-  }
+}
   
-  .input-container .icon-class {
+.input-container .icon-class {
     position: absolute;
-    top: 55%;
+    top: 40%;
     left: 10px;
     transform: translateY(-50%);
-    color: #999; /* Change color as needed */
-  }
+    color: #999;
+}
   
-  .input-container input {
+.input-container input {
     padding: 10px 55px;
-    width: 100%;
-  }
+}
+
+.login-left-section {
+    margin-left: 65px;
+}
+
+.login-left-section h1 {
+    margin-bottom: 25px;
+}
+
+.input-box {
+    margin-bottom: 15px;
+    border: none;
+    background-color: antiquewhite;
+    height: 30px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.remeber-me-section {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    display: flex;
+}
+
+.login-btn {
+    padding: 15px 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    background-color: #FF6767;
+    transition: background-color 0.2s;cursor: pointer;
+    margin-bottom: 55px;
+}
+
+.login-btn:hover {
+    background-color: #fa2323;
+}

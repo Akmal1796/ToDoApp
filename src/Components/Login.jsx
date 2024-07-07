@@ -17,18 +17,18 @@ const Login = () => {
                 <form>
                     <div class="input-container">
                         <i class="icon-class"><IoPersonSharp size={30} color='black'/></i>
-                        <input type="text" placeholder="Enter Username" />
+                        <input type="text" placeholder="Enter Username" className='input-box'/>
                     </div>
                     <div class="input-container">
                         <i class="icon-class"><MdLock size={30} color='black'/></i>
-                        <input type="text" placeholder="Enter Password" />
+                        <input type="text" placeholder="Enter Password" className='input-box'/>
                     </div>
-                    <div>
+                    <div className='remeber-me-section'>
                         <label>Remeber me</label>
                         <input type='checkbox' />
                     </div>
                     <div>
-                        <button type='submit'>Login</button>
+                        <button type='submit' className='login-btn'>Login</button>
                     </div>
                 </form>
 
