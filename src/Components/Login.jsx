@@ -32,7 +32,7 @@ const Login = () => {
                     </div>
                 </form>
 
-                <div>
+                <div className='login-brand-container'>
                     <div className='login-with-brands-account'>
                         <p>Or, Login with</p>
                         <img src={facebook} width={25}/>

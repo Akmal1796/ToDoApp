@@ -37,6 +37,7 @@
 }
 
 .login-left-section {
+    margin-top: 100px;
     margin-left: 65px;
 }
 
@@ -76,8 +77,25 @@
     background-color: #fa2323;
 }
 
+.login-brand-container {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .login-with-brands-account {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.login-right-section {
+    margin-top: 45px;
+}
+
+.login-brand-container p a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(68, 162, 255);
 }
