@@ -52,9 +52,9 @@ const TaskDetails = () => {
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda laboriosam asperiores iusto minima officiis officia ea voluptatum saepe omnis rem, quasi exercitationem delectus, eaque sed. Soluta natus nisi nam sequi.</p>
               </div>
               <div className='task-bottom-section-container'>
-                <ImBin size={30}/>
-                <MdNoteAlt size={30}/>
-                <FaExclamation size={30}/>
+                <div><ImBin size={30} className='operation-icons '/></div>
+                <div><MdNoteAlt size={30} className='operation-icons '/></div>
+                <div><FaExclamation size={30} className='operation-icons '/></div>
               </div>
           </div>
           </div>

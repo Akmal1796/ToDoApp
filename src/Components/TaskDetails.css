@@ -104,3 +104,11 @@
     align-items: center;
     justify-content: end;
 }
+
+.operation-icons {
+    padding: 5px 5px 8px 5px;
+    background-color: #FF6767;
+    border-radius: 5px;
+    color: white;
+    margin-right: 5px;
+}
