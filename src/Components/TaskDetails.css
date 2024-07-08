@@ -78,3 +78,14 @@
     border-radius: 15px;
     margin-right: 20px;
 }
+
+.task-goback-button {
+    text-decoration: underline;
+    font-weight: bold;
+    transition: color 0.2s;
+    cursor: pointer;
+}
+
+.task-goback-button:hover {
+    color: #FF6767;
+}

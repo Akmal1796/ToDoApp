@@ -44,7 +44,7 @@ const TaskDetails = () => {
                     <p className='date-section'>Created on: 07.07.2024</p>
                   </div>
                 </div>
-                <div className='task-goback-button'>Go Back</div>
+                <div><p className='task-goback-button'>Go Back</p></div>
               </div>
 
               <div>
