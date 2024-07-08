@@ -1,5 +1,7 @@
 .all-task-section-container {
     position: relative;
+    margin-top: 100px;
+    margin-right: 80px;
 }
 
 .tasks-container {
@@ -19,6 +21,7 @@
     background-color: rgb(251, 251, 255);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     padding: 25px;
+    width: 100%;
 }
 
 .todo-header {
@@ -34,4 +37,22 @@
     margin-top: 18px;
     cursor: pointer;
     position: relative;
+}
+
+.task-top-section-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-top-section {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.task-image {
+    width: 220px;
+    height: 200px;
+    border-radius: 15px;
+    margin-right: 20px;
 }

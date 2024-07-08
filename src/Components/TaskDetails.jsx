@@ -32,20 +32,21 @@ const TaskDetails = () => {
         <div className='all-task-section-container'>
           <div className='tasks-container'>
           <div className='todo'>
-              <div>
-                <div>
+              <div className='task-top-section-container'>
+                <div className='task-top-section'>
                   <div>
                     <img src={webdevelopment} className='task-image'/>
                   </div>
-                  <div>
-                    <h1>Complete Development Process</h1>
+                  <div className='task-details-container'>
+                    <h2>Complete Development Process</h2>
                     <p>Priority: <span>Moderate</span></p>
                     <p>Status: <span>Not Started</span></p>
                     <p>Created on: 07.07.2024</p>
                   </div>
                 </div>
-                <div>Go Back</div>
-              </div> 
+                <div className='task-goback-button'>Go Back</div>
+              </div>
+
               <div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste doloremque sed rem voluptatibus, repudiandae similique impedit voluptas saepe maiores, iusto corporis magnam ratione velit beatae, facilis aut odit nam. Delectus?</p>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda laboriosam asperiores iusto minima officiis officia ea voluptatum saepe omnis rem, quasi exercitationem delectus, eaque sed. Soluta natus nisi nam sequi.</p>
