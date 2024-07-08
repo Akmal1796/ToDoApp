@@ -42,6 +42,7 @@
 .task-top-section-container {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 35px;
 }
 
 .task-top-section {
@@ -88,4 +89,18 @@
 
 .task-goback-button:hover {
     color: #FF6767;
+}
+
+.task-middle-section-container {
+    margin-bottom: 25px;
+}
+
+.task-middle-section-container p {
+    line-height: 50px;
+}
+
+.task-bottom-section-container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
 }

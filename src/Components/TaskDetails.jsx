@@ -47,11 +47,11 @@ const TaskDetails = () => {
                 <div><p className='task-goback-button'>Go Back</p></div>
               </div>
 
-              <div>
+              <div className='task-middle-section-container'>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste doloremque sed rem voluptatibus, repudiandae similique impedit voluptas saepe maiores, iusto corporis magnam ratione velit beatae, facilis aut odit nam. Delectus?</p>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda laboriosam asperiores iusto minima officiis officia ea voluptatum saepe omnis rem, quasi exercitationem delectus, eaque sed. Soluta natus nisi nam sequi.</p>
               </div>
-              <div>
+              <div className='task-bottom-section-container'>
                 <ImBin size={30}/>
                 <MdNoteAlt size={30}/>
                 <FaExclamation size={30}/>
