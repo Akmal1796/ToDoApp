@@ -50,6 +50,28 @@
     justify-content: space-between;
 }
 
+.task-details-container h2 {
+    margin-bottom: 15px;
+}
+
+.task-details-container p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.task-details-container .moderate-section {
+    color: rgb(88, 177, 255);
+}
+
+.task-details-container .not-started {
+    color: red;
+}
+
+.task-details-container .date-section {
+    font-size: 12px;
+    color: rgb(177, 176, 176);
+}
+
 .task-image {
     width: 220px;
     height: 200px;

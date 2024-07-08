@@ -39,9 +39,9 @@ const TaskDetails = () => {
                   </div>
                   <div className='task-details-container'>
                     <h2>Complete Development Process</h2>
-                    <p>Priority: <span>Moderate</span></p>
-                    <p>Status: <span>Not Started</span></p>
-                    <p>Created on: 07.07.2024</p>
+                    <p>Priority: <span className='moderate-section'>Moderate</span></p>
+                    <p>Status: <span className='not-started'>Not Started</span></p>
+                    <p className='date-section'>Created on: 07.07.2024</p>
                   </div>
                 </div>
                 <div className='task-goback-button'>Go Back</div>
