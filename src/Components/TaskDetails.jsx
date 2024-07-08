@@ -6,11 +6,9 @@ import { PiDotsThreeOutlineLight } from "react-icons/pi";
 import UIDesign from '/public/Images/UIdesign.jpg'
 import Project from '/public/Images/project.jpeg'
 import webdevelopment from '/public/Images/webDevelopment.jpg'
-import { LuClipboardCheck } from "react-icons/lu";
-import { LuListTodo } from "react-icons/lu";
-import { PiChartPieSliceFill } from "react-icons/pi";
-import ProgressBar from './ProgressBar';
-import TaskForm from './TaskForm';
+import { ImBin } from "react-icons/im";
+import { MdNoteAlt } from "react-icons/md";
+import { FaExclamation } from "react-icons/fa";
 
 const TaskDetails = () => {
 
@@ -34,7 +32,29 @@ const TaskDetails = () => {
         <div className='all-task-section-container'>
           <div className='tasks-container'>
           <div className='todo'>
-                
+              <div>
+                <div>
+                  <div>
+                    <img src={webdevelopment} className='task-image'/>
+                  </div>
+                  <div>
+                    <h1>Complete Development Process</h1>
+                    <p>Priority: <span>Moderate</span></p>
+                    <p>Status: <span>Not Started</span></p>
+                    <p>Created on: 07.07.2024</p>
+                  </div>
+                </div>
+                <div>Go Back</div>
+              </div> 
+              <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste doloremque sed rem voluptatibus, repudiandae similique impedit voluptas saepe maiores, iusto corporis magnam ratione velit beatae, facilis aut odit nam. Delectus?</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda laboriosam asperiores iusto minima officiis officia ea voluptatum saepe omnis rem, quasi exercitationem delectus, eaque sed. Soluta natus nisi nam sequi.</p>
+              </div>
+              <div>
+                <ImBin size={30}/>
+                <MdNoteAlt size={30}/>
+                <FaExclamation size={30}/>
+              </div>
           </div>
           </div>
         </div>
