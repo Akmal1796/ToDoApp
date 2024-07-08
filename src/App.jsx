@@ -16,14 +16,14 @@ const App = () => {
 
   return (
     <div>
-      <TaskDetails />
-{/*       <Register />
-      <Login />
+{/*       <TaskDetails />
+      <Register />
+      <Login /> */}
       <Nav />
-      {activeItem === 'Dashboard' && <Tasks />}
       <Sidebar activeItem={activeItem} setActiveItem={setActiveItem} />
+      {activeItem === 'Dashboard' && <Tasks />}
       {activeItem === 'Vital Task' && <VitalTask />}
-      {activeItem === 'My Task' && <MyTasks />} */}
+      {activeItem === 'My Task' && <MyTasks />}
     </div>
   )
 }
