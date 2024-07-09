@@ -22,15 +22,6 @@ const App = () => {
 
   return (
     <div>
-{/*       <TaskDetails />
-      <Register />
-      <Login /> 
-      <Nav />
-      <Sidebar activeItem={activeItem} setActiveItem={setActiveItem} />
-      {activeItem === 'Dashboard' && <Tasks />}
-      {activeItem === 'Vital Task' && <VitalTask />}
-      {activeItem === 'My Task' && <MyTasks />}*/}
-
       {isAuthenticated ? (
         <>
           <Nav />
