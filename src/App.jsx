@@ -13,7 +13,8 @@ import TaskDetails from './Components/TaskDetails'
 const App = () => {
 
   const [activeItem, setActiveItem] = useState('Dashboard');
-  const [isAuthenticated, setIsAuthenticated] = useState(true);
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [isRegistering, setIsRegistering] = useState(false);
 
   const handleLogout = () => {
     setIsAuthenticated(false);
@@ -38,10 +39,14 @@ const App = () => {
           {activeItem === 'Vital Task' && <VitalTask />}
           {activeItem === 'My Task' && <MyTasks />}
         </>
+      ) : isRegistering ? (
+        <Register onLogin={() => setIsRegistering(false)} />
       ) : (
-        <Login />
+        <Login 
+          onRegister={() => setIsRegistering(true)} 
+          onLogin={() => setIsAuthenticated(true)} 
+        />
       )}
-
     </div>
   )
 }

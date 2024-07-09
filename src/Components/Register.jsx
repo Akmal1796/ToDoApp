@@ -8,7 +8,7 @@ import { MdPersonAddAlt1 } from "react-icons/md";
 import { MdPersonAddAlt } from "react-icons/md";
 import { MdOutlineLock } from "react-icons/md";
 
-const Register = () => {
+const Register = ({ onLogin }) => {
     return (
         <div className='register-page'>
             <div className='register-container'>
@@ -49,12 +49,12 @@ const Register = () => {
                             <label>I agree all terms</label>
                         </div>
                         <div>
-                            <button type='submit' className='register-btn'>Register</button>
+                            <button onClick={onLogin} type='submit' className='register-btn'>Register</button>
                         </div>
                     </form>
     
                     <div className='register-brand-container'>
-                        <p>Already have an account? <a href=''>Sign In</a></p>                   
+                        <p>Already have an account? <a href="#" onClick={onLogin}>Signin</a></p>                   
                     </div>
                 </div>
             </div>

@@ -7,7 +7,7 @@ import twitter from '/public/Images/twitter.png'
 import { IoPersonSharp } from "react-icons/io5";
 import { MdLock } from "react-icons/md";
 
-const Login = () => {
+const Login = ({ onRegister, onLogin }) => {
   return (
     <div className='login-page'>
         <div className='login-container'>
@@ -28,7 +28,7 @@ const Login = () => {
                         <label>Remeber me</label>
                     </div>
                     <div>
-                        <button type='submit' className='login-btn'>Login</button>
+                        <button onClick={onLogin} type='submit' className='login-btn'>Login</button>
                     </div>
                 </form>
 
@@ -39,7 +39,7 @@ const Login = () => {
                         <img src={google} width={25}/>
                         <img src={twitter} width={25}/>
                     </div>
-                    <p>Don't have an account? <a href=''>Create One</a></p>                   
+                    <p>Don't have an account? <a href="#" onClick={onRegister}>Create One</a></p>                   
                 </div>
             </div>
 
