@@ -1,4 +1,4 @@
-.login-page {
+.register-page {
     background: url('/public/Images/login-bg.png') rgb(255, 94, 94);
     height: 100vh;
     position: relative;
@@ -7,7 +7,7 @@
     justify-content: center;
 }
 
-.login-container {
+.register-container {
     background-color: white;
     position: absolute;
     display: flex;
@@ -19,12 +19,12 @@
     width: 1200px;
 }
 
-.input-container {
+.register-input-container {
     position: relative;
     width: fit-content;
 }
   
-.input-container .icon-class {
+.register-input-container .icon-class {
     position: absolute;
     top: 40%;
     left: 10px;
@@ -32,20 +32,20 @@
     color: #999;
 }
   
-.input-container input {
+.register-input-container input {
     padding: 15px 55px;
 }
 
-.login-left-section {
+.register-left-section {
     margin-top: -10px;
     margin-left: 0;
 }
 
-.login-right-section h1 {
+.register-right-section h1 {
     margin-bottom: 25px;
 }
 
-.input-box {
+.register-input-box {
     margin-bottom: 15px;
     border: none;
     background-color: antiquewhite;
@@ -54,7 +54,7 @@
     border-radius: 10px;
 }
 
-.terms-section {
+.register-terms-section {
     margin-top: 10px;
     margin-bottom: 5px;
     display: flex;
@@ -77,25 +77,23 @@
     background-color: #fa2323;
 }
 
-.login-brand-container {
+.register-brand-container {
     font-size: 20px;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.login-with-brands-account {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.login-right-section {
+.register-right-section {
     margin-top: -25px;
     margin-right: 60px;
 }
 
-.login-brand-container p a {
+.register-brand-container {
+    margin-top: 15px;
+}
+
+.register-brand-container p a {
     text-decoration: none;
     font-weight: bold;
     color: rgb(68, 162, 255);

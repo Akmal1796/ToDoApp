@@ -19,12 +19,12 @@
     width: 1200px;
 }
 
-.input-container {
+.login-input-container {
     position: relative;
     width: fit-content;
 }
   
-.input-container .icon-class {
+.login-input-container .login-icon-class {
     position: absolute;
     top: 40%;
     left: 10px;
@@ -32,7 +32,7 @@
     color: #999;
 }
   
-.input-container input {
+.login-input-container input {
     padding: 10px 55px;
 }
 
@@ -45,7 +45,7 @@
     margin-bottom: 25px;
 }
 
-.input-box {
+.login-input-box {
     margin-bottom: 15px;
     border: none;
     background-color: antiquewhite;
