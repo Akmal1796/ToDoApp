@@ -7,7 +7,7 @@ import { BiTask } from "react-icons/bi";
 import { BsListTask } from "react-icons/bs";
 import { IoMdSettings, IoMdHelpCircle } from "react-icons/io";
 
-const Sidebar = ({ activeItem, setActiveItem }) => {
+const Sidebar = ({ activeItem, setActiveItem, onLogout }) => {
 
   const menuItems = [
     { name: 'Dashboard', icon: <MdDashboard className='sidebar-icons' /> },
@@ -42,7 +42,7 @@ const Sidebar = ({ activeItem, setActiveItem }) => {
             </ul>
             <div className='logout-btn-container'>
                 <MdLogout className='sidebar-icons'/>
-                <div>Logout</div>
+                <div  onClick={onLogout}>Logout</div>
             </div>
         </div>
     </div>

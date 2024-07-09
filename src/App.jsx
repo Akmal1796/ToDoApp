@@ -13,17 +13,35 @@ import TaskDetails from './Components/TaskDetails'
 const App = () => {
 
   const [activeItem, setActiveItem] = useState('Dashboard');
+  const [isAuthenticated, setIsAuthenticated] = useState(true);
+
+  const handleLogout = () => {
+    setIsAuthenticated(false);
+  };
 
   return (
     <div>
 {/*       <TaskDetails />
       <Register />
-      <Login /> */}
+      <Login /> 
       <Nav />
       <Sidebar activeItem={activeItem} setActiveItem={setActiveItem} />
       {activeItem === 'Dashboard' && <Tasks />}
       {activeItem === 'Vital Task' && <VitalTask />}
-      {activeItem === 'My Task' && <MyTasks />}
+      {activeItem === 'My Task' && <MyTasks />}*/}
+
+      {isAuthenticated ? (
+        <>
+          <Nav />
+          <Sidebar activeItem={activeItem} setActiveItem={setActiveItem} onLogout={handleLogout} />
+          {activeItem === 'Dashboard' && <Tasks />}
+          {activeItem === 'Vital Task' && <VitalTask />}
+          {activeItem === 'My Task' && <MyTasks />}
+        </>
+      ) : (
+        <Login />
+      )}
+
     </div>
   )
 }
