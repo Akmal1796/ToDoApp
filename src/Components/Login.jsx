@@ -15,12 +15,12 @@ const Login = ({ onRegister, onLogin }) => {
             <div className='login-left-section'>
                 <h1>Sign In</h1>
                 <form>
-                    <div class="login-input-container">
-                        <i class="login-icon-class"><IoPersonSharp size={30} color='black'/></i>
+                    <div className="login-input-container">
+                        <i className="login-icon-class"><IoPersonSharp size={30} color='black'/></i>
                         <input type="text" placeholder="Enter Username" className='login-input-box'/>
                     </div>
-                    <div class="login-input-container">
-                        <i class="login-icon-class"><MdLock size={30} color='black'/></i>
+                    <div className="login-input-container">
+                        <i className="login-icon-class"><MdLock size={30} color='black'/></i>
                         <input type="password" placeholder="Enter Password" className='login-input-box'/>
                     </div>
                     <div className='remeber-me-section'>
