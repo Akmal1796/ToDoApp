@@ -1,11 +1,14 @@
 .all-task-section-container {
-    position: relative;
+    position: absolute;
+    top: 152px;
 }
 
 .greeting-section {
     position: absolute;
+    width: 400px;
     top: -30px;
     left: 460px;
+    z-index: 1000;
 }
 
 .overlay {

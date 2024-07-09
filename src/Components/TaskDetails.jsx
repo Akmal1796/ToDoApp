@@ -1,37 +1,15 @@
-import {React, useState} from 'react'
+import {React} from 'react'
 import './TaskDetails.css'
-import { FaRegClipboard } from "react-icons/fa6";
-import { LuPlus } from "react-icons/lu";
-import { PiDotsThreeOutlineLight } from "react-icons/pi";
-import UIDesign from '/public/Images/UIdesign.jpg'
-import Project from '/public/Images/project.jpeg'
 import webdevelopment from '/public/Images/webDevelopment.jpg'
 import { ImBin } from "react-icons/im";
 import { MdNoteAlt } from "react-icons/md";
 import { FaExclamation } from "react-icons/fa";
 
-const TaskDetails = () => {
-
-    const [progress1, setProgress1] = useState(84);
-    const [progress2, setProgress2] = useState(46);
-    const [progress3, setProgress3] = useState(13);
-  
-    const [isFormOpen, setForm] = useState(false);
-  
-    function toggleForm() {
-        setForm(prevState => !prevState);
-    }
-  
-    const [isMenuShowing, setMenu] = useState(false);
-  
-    function toggleMenu() {
-      setMenu(prevState => !prevState);
-    }
-  
+const TaskDetails = () => {  
     return (
-        <div className='all-task-section-container'>
-          <div className='tasks-container'>
-          <div className='todo'>
+        <div className='task-detail-section-container'>
+          <div className='detail-tasks-container'>
+          <div className='detail-todo'>
               <div className='task-top-section-container'>
                 <div className='task-top-section'>
                   <div>
